@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Developmental Toxicity model (CAESAR) (version 2.1.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted developmental toxicity activity	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Toxicant (low reliability)	Toxicant	-	0	0.67	1	0	False	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Toxicant (good reliability)	Toxicant	-	0.869	0.756	1	1	True	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	NON-Toxicant (moderate reliability)	NON-Toxicant	-	0.749	0.804	1	0.485	True	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	NON-Toxicant (low reliability)	NON-Toxicant	-	0	0.807	1	0	True	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	NON-Toxicant (low reliability)	NON-Toxicant	-	0	0.675	1	0.529	False	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	[ERROR]	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	NON-Toxicant (moderate reliability)	NON-Toxicant	-	0.797	0.88	1	1	True	0.85	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	[ERROR]	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+11	Molecule 11	O=[Ti]=O	[ERROR]	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	Toxicant (good reliability)	Toxicant	-	0.843	0.711	1	1	True	1	-
+13	Molecule 13	O=C1NSc2ccccc12	Toxicant (low reliability)	Toxicant	-	0.405	0.858	0.53	0.53	True	0.6	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	Toxicant (good reliability)	Toxicant	-	0.851	0.724	1	1	True	1	-

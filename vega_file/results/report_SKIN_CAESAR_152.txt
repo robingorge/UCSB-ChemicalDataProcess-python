@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Skin Sensitization model (CAESAR) (version 2.1.6)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted skin sensitization activity	O(Active)	O(Inactive)	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	COc1cc2ccc(cc2[o ]c1c3ccc(cc3O)O)O.[Cl-]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.

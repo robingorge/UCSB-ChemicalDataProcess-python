@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Ready Biodegradability model (IRFMN) (version 1.0.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted RB activity	No. alerts for non RB	No. alerts for possible non RB	No. alerts for RB	No. alerts for possible RB	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	C1CCC1	Possible Readily Biodegradable (moderate reliability)	Possible Readily Biodegradable	0	0	0	1	-	Possible RB alert no. 20  (butane)	0.745	0.847	0.656	0.656	1	-

@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (CAESAR) (version 2.1.13)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	NON-Mutagenic (moderate reliability)	NON-Mutagenic	-		0.884	0.782	1	1	True	1	-

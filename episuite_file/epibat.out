@@ -1,0 +1,1564 @@
+
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+------------------------------ EPI SUMMARY (v3.20) --------------------------
+ Physical Property Inputs:
+    Water Solubility (mg/L):   ------
+    Vapor Pressure (mm Hg) :   ------
+    Henry LC (atm-m3/mole) :   ------
+    Log Kow (octanol-water):   ------
+    Boiling Point (deg C)  :   ------
+    Melting Point (deg C)  :   ------
+
+KOWWIN Program (v1.68) Results:
+===============================
+
+                  Log Kow(version 1.68 estimate): 1.32
+
+Experimental Database Structure Match:
+  Name     :  ETHANE
+  CAS Num  :  000074-84-0
+  Exp Log P:  1.81 
+  Exp Ref  :  HANSCH,C ET AL. (1995) 
+ 
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+-------+-----+--------------------------------------------+---------+--------
+ TYPE  | NUM |        LOGKOW FRAGMENT DESCRIPTION         |  COEFF  |  VALUE 
+-------+-----+--------------------------------------------+---------+--------
+ Frag  |  2  |  -CH3    [aliphatic carbon]                | 0.5473  |  1.0946
+ Const |     |  Equation Constant                         |         |  0.2290
+-------+-----+--------------------------------------------+---------+--------
+                                                         Log Kow   =   1.3236
+
+
+
+MPBPWIN (v1.43) Program Results:
+===============================
+Experimental Database Structure Match:
+  Name     :  ETHANE
+  CAS Num  :  000074-84-0
+  Exp MP (deg C):  -182.8 
+  Exp BP (deg C):  -88.6 
+  Exp VP (mm Hg):  3.15E+04 
+         (Pa   ):  4.20E+006
+  Exp VP (deg C):  25 
+  Exp VP ref    :  DAUBERT,TE & DANNER,RP (1994) 
+ 
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+------------------------ SUMMARY MPBPWIN v1.43 --------------------
+
+
+Boiling Point:  -35.99 deg C (Adapted Stein and Brown Method)
+
+Melting Point: -160.86 deg C (Adapted Joback Method)
+Melting Point: -134.68 deg C (Gold and Ogle Method)
+Mean Melt Pt : -147.77 deg C (Joback; Gold,Ogle Methods)
+  Selected MP: -147.77 deg C (Mean Value)
+
+Vapor Pressure Estimations (25 deg C):
+  (Using BP: -88.60 deg C (exp database))
+  (MP not used for liquids)
+    VP:  3E+004 mm Hg (Antoine Method)
+      :  3.99E+006 Pa  (Antoine Method)
+    VP:  1.05E+004 mm Hg (Modified Grain Method)
+      :  1.4E+006 Pa  (Modified Grain Method)
+    VP:  1.38E+004 mm Hg (Mackay Method)
+      :  1.85E+006 Pa  (Mackay Method)
+  Selected VP:  2.02E+004 mm Hg (Mean of Antoine & Grain methods)
+             :  2.7E+006 Pa  (Mean of Antoine & Grain methods)
+
+
+
+-------+-----+--------------------+----------+---------
+ TYPE  | NUM |  BOIL DESCRIPTION  |  COEFF   |  VALUE  
+-------+-----+--------------------+----------+---------
+ Group |  2  |  -CH3              |   21.98  |   43.96
+   *   |     |  Equation Constant |          |  198.18
+=============+====================+==========+=========
+RESULT-uncorr|  BOILING POINT in deg Kelvin  |  242.14
+RESULT- corr |  BOILING POINT in deg Kelvin  |  237.17
+             |  BOILING POINT in deg C       |  -35.99
+-------------------------------------------------------
+
+-------+-----+--------------------+----------+---------
+ TYPE  | NUM |  MELT DESCRIPTION  |  COEFF   |  VALUE  
+-------+-----+--------------------+----------+---------
+ Group |  2  |  -CH3              |   -5.10  |  -10.20
+   *   |     |  Equation Constant |          |  122.50
+=============+====================+==========+=========
+   RESULT    |  MELTING POINT in deg Kelvin  |  112.30
+             |  MELTING POINT in deg C       | -160.86
+-------------------------------------------------------
+
+
+
+Water Sol from Kow (WSKOW v1.42) Results:
+========================================
+
+          Water Sol: 938.6 mg/L
+
+Experimental Water Solubility Database Match:
+  Name     :  ETHANE
+  CAS Num  :  000074-84-0
+  Exp WSol :  60.2 mg/L (25 deg C)
+  Exp Ref  :  MCAULIFFE,C (1966) 
+ 
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+---------------------------------- WSKOW v1.42 Results ------------------------
+Log Kow  (estimated)  :  1.32 
+Log Kow (experimental):  1.81 
+    Cas No: 000074-84-0
+    Name  : ETHANE
+    Refer : HANSCH,C ET AL. (1995)
+Log Kow used by Water solubility estimates:  1.81
+
+Equation Used to Make Water Sol estimate:
+   Log S (mol/L) = 0.796 - 0.854 log Kow - 0.00728 MW + Correction
+       (used when Melting Point NOT available)
+
+      Correction(s):         Value
+      --------------------   -----
+       Hydrocarbon          -0.537
+
+   Log Water Solubility  (in moles/L) :  -1.506
+   Water Solubility at 25 deg C (mg/L):  938.6
+
+
+
+WATERNT Program (v1.01) Results:
+===============================
+
+                  Water Sol (v1.01 est): 383.29 mg/L
+
+Experimental Water Solubility Database Match:
+  Name     :  ETHANE
+  CAS Num  :  000074-84-0
+  Exp WSol :  60.2 mg/L (25 deg C)
+  Exp Ref  :  MCAULIFFE,C (1966) 
+ 
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+-------+-----+--------------------------------------------+----------+---------
+ TYPE  | NUM |    WATER SOLUBILITY FRAGMENT DESCRIPTION   |  COEFF   |  VALUE  
+-------+-----+--------------------------------------------+----------+---------
+ Frag  |  2  |  -CH3    [aliphatic carbon]                |-0.3213   | -0.6425
+ Factor|  1  |  Hydrocarbon [unsubst. alkane] correction  |-1.5013   | -1.5013
+ Const |     |  Equation Constant                         |          |  0.2492
+-------+-----+--------------------------------------------+----------+---------
+                              Log Water Sol (moles/L) at 25 dec C  =   -1.8946
+                              Water Solubility (mg/L) at 25 dec C  =   383.29
+
+
+
+ECOSAR Program (v1.11) Results:
+===============================
+ECOSAR Version 1.11 Results Page
+ 
+SMILES : CC
+CHEM   : 
+CAS Num: 
+ChemID1: 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+Log Kow: 1.324      (EPISuite Kowwin v1.68 Estimate)
+Log Kow:            (User Entered)
+Log Kow: 1.81       (PhysProp DB exp value - for comparison only)
+Melt Pt:            (User Entered for Wat Sol estimate)
+Melt Pt: -182.80    (deg C, PhysProp DB exp value for Wat Sol est)
+Wat Sol: 790.9      (mg/L, EPISuite WSKowwin v1.43 Estimate)
+Wat Sol:            (User Entered)
+Wat Sol: 60.2       (mg/L, PhysProp DB exp value)
+ 
+ 
+--------------------------------------
+Values used to Generate ECOSAR Profile
+--------------------------------------
+Log Kow: 1.324      (EPISuite Kowwin v1.68 Estimate)
+Wat Sol: 60.2       (mg/L, PhysProp DB exp value)
+ 
+
+
+--------------------------------------
+ECOSAR v1.11 Class-specific Estimations
+--------------------------------------
+Neutral Organics
+                                                                    Predicted
+ECOSAR Class                 Organism            Duration  End Pt   mg/L (ppm)
+===========================  ==================  ========  ======   ==========
+Neutral Organics           : Fish                96-hr     LC50      100.049 *
+Neutral Organics           : Daphnid             48-hr     LC50       53.369
+Neutral Organics           : Green Algae         96-hr     EC50       30.707
+Neutral Organics           : Fish                          ChV         9.085
+Neutral Organics           : Daphnid                       ChV         4.374
+Neutral Organics           : Green Algae                   ChV         6.997
+Neutral Organics           : Fish (SW)           96-hr     LC50      125.445 *
+Neutral Organics           : Mysid               96-hr     LC50      147.418 *
+Neutral Organics           : Fish (SW)                     ChV         9.009
+Neutral Organics           : Mysid (SW)                    ChV        15.570
+Neutral Organics           : Earthworm           14-day    LC50       61.444 *
+
+ Note:  * = asterisk designates: Chemical may not be soluble enough to
+        measure this predicted effect. If the effect level exceeds the
+        water solubility by 10X, typically no effects at saturation (NES)
+        are reported.
+ 
+ 
+------------------------------
+Class Specific LogKow Cut-Offs
+------------------------------
+If the log Kow of the chemical is greater than the endpoint specific cut-offs
+presented below, then no effects at saturation are expected for those endpoints.
+ 
+Neutral Organics:
+----------------
+Maximum LogKow: 5.0 (Fish 96-hr LC50; Daphnid LC50, Mysid LC50)
+Maximum LogKow: 6.0 (Earthworm LC50)
+Maximum LogKow: 6.4 (Green Algae EC50)
+Maximum LogKow: 8.0 (ChV)
+ 
+
+
+
+
+HENRY (v3.20) Program Results:
+=============================
+
+       Bond Est :  5.50E-001 atm-m3/mole  (5.57E+004 Pa-m3/mole)
+       Group Est:  4.25E-001 atm-m3/mole  (4.31E+004 Pa-m3/mole)
+
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+--------------------------- HENRYWIN v3.20 Results --------------------------
+ 
+Experimental Database Structure Match:
+  Name     :  ETHANE
+  CAS Num  :  000074-84-0
+  Exp HLC  :  5.00E-01 atm-m3/mole  (5.07E+004 Pa-m3/mole)
+  Temper   :  25 deg C
+  Exp Ref  :  VP/WSOL 
+ 
+----------+---------------------------------------------+---------+---------- 
+   CLASS  |     BOND CONTRIBUTION DESCRIPTION           | COMMENT |  VALUE
+----------+---------------------------------------------+---------+---------- 
+ HYDROGEN |   6  Hydrogen to Carbon (aliphatic) Bonds   |         | -0.7181
+ FRAGMENT |   1  C-C                                    |         |  0.1163
+ FACTOR   |   *  Linear or branched alkane              |         |  -.7500
+----------+---------------------------------------------+---------+---------- 
+ RESULT   |    BOND ESTIMATION METHOD for LWAPC VALUE   |  TOTAL  | -1.352
+----------+---------------------------------------------+---------+---------- 
+HENRYs LAW CONSTANT at 25 deg C = 5.50E-001 atm-m3/mole
+                                = 2.25E+001 unitless
+                                = 5.57E+004 Pa-m3/mole
+
+--------+-----------------------------------------------+------------+--------
+        |        GROUP CONTRIBUTION DESCRIPTION         |   COMMENT  |  VALUE 
+--------+-----------------------------------------------+------------+--------
+        |           2  CH3 (X)                          |            | -1.24
+--------+-----------------------------------------------+------------+--------
+ RESULT |  GROUP ESTIMATION METHOD for LOG GAMMA VALUE  |    TOTAL   | -1.24
+--------+-----------------------------------------------+------------+--------
+HENRYs LAW CONSTANT at 25 deg C = 4.25E-001 atm-m3/mole
+                                = 1.74E+001 unitless
+                                = 4.31E+004 Pa-m3/mole
+
+
+For Henry LC Comparison Purposes:
+  Exper Database: 5.00E-01  atm-m3/mole  (5.07E+004 Pa-m3/mole)
+  User-Entered Henry LC:  not entered
+  Henrys LC [via VP/WSol estimate using User-Entered or Estimated values]:
+     HLC:  3.204E-002 atm-m3/mole  (3.246E+003 Pa-m3/mole)
+     VP:   2.02E+004 mm Hg (source: MPBPVP)
+     WS:   939 mg/L (source: WSKOWWIN)
+
+
+
+Log Octanol-Air (KOAWIN v1.10) Results:
+======================================
+
+          Log Koa: 0.499
+
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+--------------------------- KOAWIN v1.10 Results --------------------------
+
+Experimental Database Structure Match:
+  Name      :  Ethane
+  CAS Num   :  000074-84-0
+  Exp LogKoa:  0.42 
+  Exp Ref   :  Abraham,MH et al. (2001) 
+ 
+Log Koa (octanol/air) estimate:  0.499
+    Koa (octanol/air) estimate:  3.159
+ Using:
+   Log Kow:  1.81  (exp database)
+   HenryLC:  0.5  atm-m3/mole (exp database)
+   Log Kaw:  1.311  (air/water part.coef.)
+
+ LogKow  : 1.81 (exp database)
+ LogKow  : 1.32 (KowWin estimate)
+ Henry LC: 0.5 atm-m3/mole (exp database)
+ Henry LC: 0.55 atm-m3/mole (HenryWin bond estimate)
+
+ Log Koa (octanol/air) estimate:  -0.032 (from KowWin/HenryWin)
+
+
+
+BIOWIN (v4.10) Program Results:
+==============================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+--------------------------- BIOWIN v4.10 Results ----------------------------
+
+   Biowin1 (Linear Model Prediction)    :  Biodegrades Fast
+   Biowin2 (Non-Linear Model Prediction):  Biodegrades Fast
+   Biowin3 (Ultimate Biodegradation Timeframe):  Weeks
+   Biowin4 (Primary  Biodegradation Timeframe):  Days
+   Biowin5 (MITI Linear Model Prediction)    :  Biodegrades Fast
+   Biowin6 (MITI Non-Linear Model Prediction):  Biodegrades Fast
+   Biowin7 (Anaerobic Model Prediction):  Biodegrades Fast
+   Ready Biodegradability Prediction:  YES
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin1 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0143
+ Const|  *  |  Equation Constant                         |         |  0.7475
+============+============================================+=========+=========
+   RESULT   |    Biowin1 (Linear Biodeg Probability)     |         |  0.7332
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin2 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.4270
+============+============================================+=========+=========
+   RESULT   |  Biowin2 (Non-Linear Biodeg Probability)   |         |  0.9297
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Biodegrades Fast
+ A Probability Less Than 0.5 indicates --> Does NOT Biodegrade Fast
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin3 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0665
+ Const|  *  |  Equation Constant                         |         |  3.1992
+============+============================================+=========+=========
+   RESULT   |  Biowin3 (Survey Model - Ultimate Biodeg)  |         |  3.1327
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin4 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0434
+ Const|  *  |  Equation Constant                         |         |  3.8477
+============+============================================+=========+=========
+   RESULT   |   Biowin4 (Survey Model - Primary Biodeg)  |         |  3.8044
+============+============================================+=========+=========
+
+ Result Classification:   5.00 -> hours     4.00 -> days    3.00 -> weeks
+  (Primary & Ultimate)    2.00 -> months    1.00 -> longer
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin5 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Methyl  [-CH3]                            |  0.0004 |  0.0008
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0895
+ Const|  *  |  Equation Constant                         |         |  0.7121
+============+============================================+=========+=========
+   RESULT   |  Biowin5 (MITI Linear Biodeg Probability)  |         |  0.6235
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin6 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Methyl  [-CH3]                            |  0.0194 |  0.0389
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.8681
+============+============================================+=========+=========
+   RESULT   |Biowin6 (MITI Non-Linear Biodeg Probability)|         |  0.8451
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Readily Degradable
+ A Probability Less Than 0.5 indicates --> NOT Readily Degradable
+
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin7 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Methyl  [-CH3]                            | -0.0796 | -0.1591
+ Const|  *  |  Equation Constant                         |         |  0.8361
+============+============================================+=========+=========
+   RESULT   |   Biowin7 (Anaerobic Linear Biodeg Prob)   |         |  0.6769
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Biodegrades Fast
+ A Probability Less Than 0.5 indicates --> Does NOT Biodegrade Fast
+
+Ready Biodegradability Prediction: (YES or NO)
+----------------------------------------------
+ Criteria for the YES or NO prediction:  If the Biowin3 (ultimate survey
+ model) result is "weeks" or faster (i.e. "days", "days to weeks", or
+ "weeks" AND the Biowin5 (MITI linear model) probability is >= 0.5, then
+ the prediction is YES (readily biodegradable).  If this condition is not
+ satisfied, the prediction is NO (not readily biodegradable).  This method
+ is based on application of Bayesian analysis to ready biodegradation data
+ (see Help).  Biowin5 and 6 also predict ready biodegradability, but for
+ degradation in the OECD301C test only; using data from the Chemicals
+ Evaluation and Research Institute Japan (CERIJ) database.
+
+
+
+
+BioHCwin (v1.01) Program Results:
+==============================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+-------------------------- BioHCwin v1.01 Results ---------------------------
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |   LOG Hydrocarbon FRAGMENT DESCRIPTION     |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Methyl  [-CH3]                            | -0.0969 | -0.1938
+ Frag |  1  |  N-Alkane (linear) ... < C22               |  0.1104 |  0.1104
+ Const|  *  |  Equation Constant                         |         |  0.4898
+============+============================================+=========+=========
+   RESULT   |        LOG BioHC Half-Life (days)          |         |  0.4064
+   RESULT   |          BioHC Half-Life (days)            |         |   2.549
+============+============================================+=========+=========
+
+
+
+
+AEROWIN Program (v1.00) Results:
+===============================
+ Sorption to aerosols (25 Dec C)[AEROWIN v1.00]:
+  Vapor pressure (liquid/subcooled):  4.2E+006 Pa (3.15E+004 mm Hg)
+  Log Koa (Exp database): 0.420
+   Kp (particle/gas partition coef. (m3/ug)):
+       Mackay model           :  7.14E-013 
+       Octanol/air (Koa) model:  6.46E-013 
+   Fraction sorbed to airborne particulates (phi):
+       Junge-Pankow model     :  2.58E-011 
+       Mackay model           :  5.71E-011 
+       Octanol/air (Koa) model:  5.17E-011 
+
+
+AOP Program (v1.92) Results:
+===========================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+------------------- SUMMARY (AOP v1.92): HYDROXYL RADICALS (25 deg C) --------
+Hydrogen Abstraction       =   0.2720 E-12 cm3/molecule-sec
+Reaction with N, S and -OH =   0.0000 E-12 cm3/molecule-sec
+Addition to Triple Bonds   =   0.0000 E-12 cm3/molecule-sec
+Addition to Olefinic Bonds =   0.0000 E-12 cm3/molecule-sec
+Addition to Aromatic Rings =   0.0000 E-12 cm3/molecule-sec
+Addition to Fused Rings    =   0.0000 E-12 cm3/molecule-sec
+
+   OVERALL OH Rate Constant =   0.2720 E-12 cm3/molecule-sec
+   HALF-LIFE =    39.323 Days (12-hr day; 1.5E6 OH/cm3)
+------------------- SUMMARY (AOP v1.91): OZONE REACTION (25 deg C) -----------
+
+               ******  NO OZONE REACTION ESTIMATION ******
+               (ONLY Olefins and Acetylenes are Estimated)
+
+Experimental Database Structure Match:
+  Chem Name :  Ethane
+  CAS Number:  000074-84-0
+  Exper OH rate constant   :  0.268  E-12  cm3/molecule-sec
+    Exper OH Reference:  ATKINSON,R (1989)
+  Exper Ozone rate constant:  1.0 E-23  cm3/molecule-sec
+  Exper NO3 rate constant  :  4 E-18  cm3/molecule-sec
+Fraction sorbed to airborne particulates (phi):
+  4.15E-011 (Junge-Pankow, Mackay avg)
+  5.17E-011 (Koa method)
+     Note: the sorbed fraction may be resistant to atmospheric oxidation
+
+
+
+
+KOCWIN Program (v2.00) Results:
+==============================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+---------------------------  KOCWIN v2.00 Results  ---------------------------
+
+  Koc Estimate from MCI:
+  ---------------------
+         First Order Molecular Connectivity Index  ........... :  1.000
+         Non-Corrected Log Koc (0.5213 MCI + 0.60)  .......... :  1.1211
+         Fragment Correction(s) -->  NONE                      :   ---
+         Corrected Log Koc  .................................. :  1.1211
+
+                         Estimated Koc:  13.22  L/kg   <===========
+
+  Koc Estimate from Log Kow:
+  -------------------------
+         Log Kow  (experimental DB)  ......................... :  1.81
+         Non-Corrected Log Koc (0.8679 logKow - 0.0004)  ..... :  1.5705
+         Fragment Correction(s) -->  NONE                      :   ---
+         Corrected Log Koc  .................................. :  1.5705
+
+                         Estimated Koc:  37.2  L/kg   <===========
+ 
+
+
+
+HYDROWIN Program (v2.00) Results:
+================================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+--------------------------- HYDROWIN v2.00 Results ---------------------------
+
+
+ Currently, this program can NOT estimate a hydrolysis rate constant for
+                the type of chemical structure entered!!
+
+ ONLY Esters, Carbamates, Epoxides, Halomethanes (containing 1-3 halogens),
+      Specific Alkyl Halides & Phosphorus Esters can be estimated!!
+
+   When present, various hydrolyzable compound-types will be identified.
+  For more information, (Click OVERVIEW in Help  or  see the User's Guide)
+
+              *****   CALCULATION NOT PERFORMED   *****
+
+
+
+BCFBAF Program (v3.01) Results:
+==============================
+SMILES : CC
+CHEM   : 
+MOL FOR: C2 H6 
+MOL WT : 30.07
+--------------------------------- BCFBAF v3.01 --------------------------------
+Summary Results:
+  Log BCF (regression-based estimate):  0.86  (BCF = 7.27 L/kg wet-wt)
+  Biotransformation Half-Life (days) :  0.271  (normalized to 10 g fish)
+  Log BAF (Arnot-Gobas upper trophic):  0.84  (BAF = 6.89 L/kg wet-wt)
+ 
+Log Kow (experimental):  1.81
+Log Kow used by BCF estimates:  1.81
+
+Equation Used to Make BCF estimate:
+   Log BCF = 0.6598 log Kow - 0.333 + Correction
+
+      Correction(s):                    Value
+       No Applicable Correction Factors
+
+   Estimated Log BCF =  0.861  (BCF = 7.265 L/kg wet-wt)
+
+===========================================================
+Whole Body Primary Biotransformation Rate Estimate for Fish:
+===========================================================
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM | LOG BIOTRANSFORMATION FRAGMENT DESCRIPTION |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Methyl  [-CH3]                            |  0.2451 |  0.4902
+ Frag |  1  |  N-Alkane (linear) ... < C22               |  0.0000 |  0.0000
+ L Kow|  *  |  Log Kow =   1.81 (experimental   )        |  0.3073 |  0.5563
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0771
+ Const|  *  |  Equation Constant                         |         | -1.5371
+============+============================================+=========+=========
+   RESULT   |        LOG Bio Half-Life (days)            |         | -0.5677
+   RESULT   |            Bio Half-Life (days)            |         |  0.2706
+   NOTE     |  Bio Half-Life Normalized to 10 g fish at 15 deg C   |
+============+============================================+=========+=========
+
+Biotransformation Rate Constant:
+ kM (Rate Constant):  2.562 /day (10 gram fish) 
+ kM (Rate Constant):  1.44 /day (100 gram fish) 
+ kM (Rate Constant):  0.81 /day (1 kg fish) 
+ kM (Rate Constant):  0.4555 /day (10 kg fish) 
+
+Arnot-Gobas BCF & BAF Methods (including biotransformation rate estimates):
+   Estimated Log BCF (upper trophic) =  0.838  (BCF = 6.887 L/kg wet-wt)
+   Estimated Log BAF (upper trophic) =  0.838  (BAF = 6.887 L/kg wet-wt)
+   Estimated Log BCF (mid trophic)   =  0.704  (BCF = 5.061 L/kg wet-wt)
+   Estimated Log BAF (mid trophic)   =  0.704  (BAF = 5.061 L/kg wet-wt)
+   Estimated Log BCF (lower trophic) =  0.662  (BCF = 4.596 L/kg wet-wt)
+   Estimated Log BAF (lower trophic) =  0.662  (BAF = 4.596 L/kg wet-wt)
+ 
+Arnot-Gobas BCF & BAF Methods (assuming a biotransformation rate of zero):
+   Estimated Log BCF (upper trophic) =  0.892  (BCF = 7.798 L/kg wet-wt)
+   Estimated Log BAF (upper trophic) =  0.900  (BAF = 7.942 L/kg wet-wt)
+ 
+
+
+
+
+                            Volatilization From Water 
+                            ========================= 
+
+Chemical Name: 
+
+Molecular Weight    :  30.07 g/mole 
+Water Solubility    :  ----- 
+Vapor Pressure      :  ----- 
+Henry's Law Constant:  0.5 atm-m3/mole  (Henry experimental database) 
+
+                             RIVER             LAKE 
+                           ---------         --------- 
+Water Depth     (meters):   1                 1          
+Wind Velocity    (m/sec):   5                 0.5        
+Current Velocity (m/sec):   1                 0.05       
+
+      HALF-LIFE (min  ) :   33.61             3125       
+      HALF-LIFE (hours) :   0.5602            52.09      
+      HALF-LIFE (days ) :   0.02334           2.17       
+
+
+STP Fugacity Model:  Predicted Fate in a Wastewater Treatment Facility
+======================================================================
+   (using 10000 hr Bio P,A,S)
+PROPERTIES OF: 
+-------------
+Molecular weight (g/mol)                               30.07 
+Aqueous solubility (mg/l)                              0 
+Vapour pressure (Pa)                                   0 
+                (atm)                                  0 
+                (mm Hg)                                0 
+Henry 's law constant (Atm-m3/mol)                     0.5 
+Air-water partition coefficient                        20.4485 
+Octanol-water partition coefficient (Kow)              64.5654 
+Log Kow                                                1.81 
+Biomass to water partition coefficient                 13.7131 
+Temperature [deg C]                                    25 
+Biodeg rate constants (h^-1),half life in biomass (h) and in 2000 mg/L MLSS (h):
+          -Primary tank        0.00       266.94       10000.00
+          -Aeration tank       0.00       266.94       10000.00
+          -Settling tank       0.00       266.94       10000.00
+
+ STP Overall Chemical Mass Balance:
+ ---------------------------------
+                             g/h               mol/h          percent
+ 
+Influent                    1.00E+001         3.3E-001        100.00
+ 
+Primary sludge              3.98E-002         1.3E-003         0.40
+Waste sludge                8.44E-004         2.8E-005         0.01
+Primary volatilization      1.31E-001         4.4E-003         1.31
+Settling volatilization     1.90E-003         6.3E-005         0.02
+Aeration off gas            9.77E+000         3.3E-001        97.73
+
+Primary biodegradation      1.77E-003         5.9E-005         0.02
+Settling biodegradation     2.83E-006         9.4E-008         0.00
+Aeration biodegradation     3.80E-005         1.3E-006         0.00
+ 
+Final water effluent        5.14E-002         1.7E-003         0.51
+ 
+Total removal               9.95E+000         3.3E-001        99.49
+Total biodegradation        1.82E-003         6.0E-005         0.02
+ (** Total removal recommended maximum is 95 percent)
+
+
+
+STP Fugacity Model:  Predicted Fate in a Wastewater Treatment Facility
+======================================================================
+   (using Biowin/EPA draft method)
+PROPERTIES OF: 
+-------------
+Molecular weight (g/mol)                               30.07 
+Aqueous solubility (mg/l)                              0 
+Vapour pressure (Pa)                                   0 
+                (atm)                                  0 
+                (mm Hg)                                0 
+Henry 's law constant (Atm-m3/mol)                     0.5 
+Air-water partition coefficient                        20.4485 
+Octanol-water partition coefficient (Kow)              64.5654 
+Log Kow                                                1.81 
+Biomass to water partition coefficient                 13.7131 
+Temperature [deg C]                                    25 
+Biodeg rate constants (h^-1),half life in biomass (h) and in 2000 mg/L MLSS (h):
+          -Primary tank        2.60         0.27          10.00
+          -Aeration tank      25.96         0.03           1.00
+          -Settling tank      25.96         0.03           1.00
+
+ STP Overall Chemical Mass Balance:
+ ---------------------------------
+                             g/h               mol/h          percent
+ 
+Influent                    1.00E+001         3.3E-001        100.00
+ 
+Primary sludge              3.38E-002         1.1E-003         0.34
+Waste sludge                5.36E-004         1.8E-005         0.01
+Primary volatilization      1.11E-001         3.7E-003         1.11
+Settling volatilization     1.21E-003         4.0E-005         0.01
+Aeration off gas            7.98E+000         2.7E-001        79.85
+
+Primary biodegradation      1.51E+000         5.0E-002        15.08
+Settling biodegradation     1.80E-002         6.0E-004         0.18
+Aeration biodegradation     3.10E-001         1.0E-002         3.10
+ 
+Final water effluent        3.27E-002         1.1E-003         0.33
+ 
+Total removal               9.97E+000         3.3E-001        99.67
+Total biodegradation        1.84E+000         6.1E-002        18.36
+ (** Total removal recommended maximum is 95 percent)
+
+
+Level III Fugacity Model (Full-Output):
+=======================================
+  Chem Name   : 
+  Molecular Wt: 30.07
+  Henry's LC  : 0.5 atm-m3/mole (Henry database)
+  Vapor Press : 2.02e+004 mm Hg  (Mpbpwin program)
+  Log Kow     : 1.81  (Kowwin program)
+  Soil Koc    : 13.2  (KOCWIN MCI method)
+
+           Mass Amount    Half-Life    Emissions
+            (percent)        (hr)       (kg/hr)
+   Air       55.1            958          1000       
+   Water     44.3            360          1000       
+   Soil      0.556           720          1000       
+   Sediment  0.106           3.24e+003    0          
+
+             Fugacity    Reaction    Advection   Reaction    Advection
+              (atm)      (kg/hr)      (kg/hr)    (percent)   (percent)
+   Air       1.86e-009    166         2.29e+003   5.53        76.4      
+   Water     1.53e-005    355         184         11.8        6.15      
+   Soil      4.54e-007    2.23        0           0.0743      0         
+   Sediment  1.39e-005    0.0941      0.0088      0.00314     0.000293  
+
+   Persistence Time: 139 hr
+   Reaction Time:    796 hr
+   Advection Time:   168 hr
+   Percent Reacted:  17.4
+   Percent Advected: 82.6
+
+   Half-Lives (hr), (based upon Biowin (Ultimate) and Aopwin):
+      Air:      957.8
+      Water:    360
+      Soil:     720
+      Sediment: 3240
+        Biowin estimate: 3.133  (weeks       )
+
+   Advection Times (hr):
+      Air:      100
+      Water:    1000
+      Sediment: 5e+004
+
+
+
+========================
+
+
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+------------------------------ EPI SUMMARY (v3.20) --------------------------
+ Physical Property Inputs:
+    Water Solubility (mg/L):   ------
+    Vapor Pressure (mm Hg) :   ------
+    Henry LC (atm-m3/mole) :   ------
+    Log Kow (octanol-water):   ------
+    Boiling Point (deg C)  :   ------
+    Melting Point (deg C)  :   ------
+
+KOWWIN Program (v1.68) Results:
+===============================
+
+                  Log Kow(version 1.68 estimate): 1.34
+
+Experimental Database Structure Match:
+  Name     :  DICHLOROMETHANE
+  CAS Num  :  000075-09-2
+  Exp Log P:  1.25 
+  Exp Ref  :  HANSCH,C ET AL. (1995) 
+ 
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+-------+-----+--------------------------------------------+---------+--------
+ TYPE  | NUM |        LOGKOW FRAGMENT DESCRIPTION         |  COEFF  |  VALUE 
+-------+-----+--------------------------------------------+---------+--------
+ Frag  |  1  |  -CH2-   [aliphatic carbon]                | 0.4911  |  0.4911
+ Frag  |  2  |  -CL     [chlorine, aliphatic attach]      | 0.3102  |  0.6204
+ Const |     |  Equation Constant                         |         |  0.2290
+-------+-----+--------------------------------------------+---------+--------
+                                                         Log Kow   =   1.3405
+
+
+
+MPBPWIN (v1.43) Program Results:
+===============================
+Experimental Database Structure Match:
+  Name     :  DICHLOROMETHANE
+  CAS Num  :  000075-09-2
+  Exp MP (deg C):  -95.1 
+  Exp BP (deg C):  40 
+  Exp VP (mm Hg):  4.35E+02 
+         (Pa   ):  5.80E+004
+  Exp VP (deg C):  25 
+  Exp VP ref    :  BOUBLIK,T ET AL. (1984) 
+ 
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+------------------------ SUMMARY MPBPWIN v1.43 --------------------
+
+
+Boiling Point:   80.42 deg C (Adapted Stein and Brown Method)
+
+Melting Point: -112.29 deg C (Adapted Joback Method)
+Melting Point:  -66.70 deg C (Gold and Ogle Method)
+Mean Melt Pt :  -89.50 deg C (Joback; Gold,Ogle Methods)
+  Selected MP:  -89.50 deg C (Mean Value)
+
+Vapor Pressure Estimations (25 deg C):
+  (Using BP: 40.00 deg C (exp database))
+  (MP not used for liquids)
+    VP:  433 mm Hg (Antoine Method)
+      :  5.77E+004 Pa  (Antoine Method)
+    VP:  430 mm Hg (Modified Grain Method)
+      :  5.74E+004 Pa  (Modified Grain Method)
+    VP:  452 mm Hg (Mackay Method)
+      :  6.02E+004 Pa  (Mackay Method)
+  Selected VP:  432 mm Hg (Mean of Antoine & Grain methods)
+             :  5.75E+004 Pa  (Mean of Antoine & Grain methods)
+
+
+
+-------+-----+--------------------+----------+---------
+ TYPE  | NUM |  BOIL DESCRIPTION  |  COEFF   |  VALUE  
+-------+-----+--------------------+----------+---------
+ Group |  1  |  -CH2-             |   24.22  |   24.22
+ Group |  2  |  -Cl (primary)     |   62.63  |  125.26
+   *   |     |  Equation Constant |          |  198.18
+=============+====================+==========+=========
+RESULT-uncorr|  BOILING POINT in deg Kelvin  |  347.66
+RESULT- corr |  BOILING POINT in deg Kelvin  |  353.58
+             |  BOILING POINT in deg C       |   80.42
+-------------------------------------------------------
+
+-------+-----+--------------------+----------+---------
+ TYPE  | NUM |  MELT DESCRIPTION  |  COEFF   |  VALUE  
+-------+-----+--------------------+----------+---------
+ Group |  1  |  -CH2-             |   11.27  |   11.27
+ Group |  2  |  -Cl (primary)     |   13.55  |   27.10
+   *   |     |  Equation Constant |          |  122.50
+=============+====================+==========+=========
+   RESULT    |  MELTING POINT in deg Kelvin  |  160.87
+             |  MELTING POINT in deg C       | -112.29
+-------------------------------------------------------
+
+
+
+Water Sol from Kow (WSKOW v1.42) Results:
+========================================
+
+          Water Sol: 1.095e+004 mg/L
+
+Experimental Water Solubility Database Match:
+  Name     :  DICHLOROMETHANE
+  CAS Num  :  000075-09-2
+  Exp WSol :  1.3E+004 mg/L (25 deg C)
+  Exp Ref  :  HORVATH,AL (1982) 
+ 
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+---------------------------------- WSKOW v1.42 Results ------------------------
+Log Kow  (estimated)  :  1.34 
+Log Kow (experimental):  1.25 
+    Cas No: 000075-09-2
+    Name  : DICHLOROMETHANE
+    Refer : HANSCH,C ET AL. (1995)
+Log Kow used by Water solubility estimates:  1.25
+
+Equation Used to Make Water Sol estimate:
+   Log S (mol/L) = 0.796 - 0.854 log Kow - 0.00728 MW + Correction
+       (used when Melting Point NOT available)
+
+      Correction(s):         Value
+      --------------------   -----
+       No Applicable Correction Factors
+
+   Log Water Solubility  (in moles/L) :  -0.890
+   Water Solubility at 25 deg C (mg/L):  1.095e+004
+
+
+
+WATERNT Program (v1.01) Results:
+===============================
+
+                  Water Sol (v1.01 est): 11665 mg/L
+
+Experimental Water Solubility Database Match:
+  Name     :  DICHLOROMETHANE
+  CAS Num  :  000075-09-2
+  Exp WSol :  1.3E+004 mg/L (25 deg C)
+  Exp Ref  :  HORVATH,AL (1982) 
+ 
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+-------+-----+--------------------------------------------+----------+---------
+ TYPE  | NUM |    WATER SOLUBILITY FRAGMENT DESCRIPTION   |  COEFF   |  VALUE  
+-------+-----+--------------------------------------------+----------+---------
+ Frag  |  1  |  -CH2-   [aliphatic carbon]                |-0.5370   | -0.5370
+ Frag  |  2  |  -CL     [chlorine, aliphatic attach]      |-0.2872   | -0.5744
+ Const |     |  Equation Constant                         |          |  0.2492
+-------+-----+--------------------------------------------+----------+---------
+                              Log Water Sol (moles/L) at 25 dec C  =   -0.8622
+                              Water Solubility (mg/L) at 25 dec C  =    11665
+
+
+
+ECOSAR Program (v1.11) Results:
+===============================
+ECOSAR Version 1.11 Results Page
+ 
+SMILES : C(CL)CL
+CHEM   : 
+CAS Num: 
+ChemID1: 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+Log Kow: 1.340      (EPISuite Kowwin v1.68 Estimate)
+Log Kow:            (User Entered)
+Log Kow: 1.25       (PhysProp DB exp value - for comparison only)
+Melt Pt:            (User Entered for Wat Sol estimate)
+Melt Pt: -95.10     (deg C, PhysProp DB exp value for Wat Sol est)
+Wat Sol: 1.43E+004  (mg/L, EPISuite WSKowwin v1.43 Estimate)
+Wat Sol:            (User Entered)
+Wat Sol: 1.3E+004   (mg/L, PhysProp DB exp value)
+ 
+ 
+--------------------------------------
+Values used to Generate ECOSAR Profile
+--------------------------------------
+Log Kow: 1.340      (EPISuite Kowwin v1.68 Estimate)
+Wat Sol: 1.3E+004   (mg/L, PhysProp DB exp value)
+ 
+
+
+--------------------------------------
+ECOSAR v1.11 Class-specific Estimations
+--------------------------------------
+Neutral Organics
+                                                                    Predicted
+ECOSAR Class                 Organism            Duration  End Pt   mg/L (ppm)
+===========================  ==================  ========  ======   ==========
+Neutral Organics           : Fish                96-hr     LC50      272.881
+Neutral Organics           : Daphnid             48-hr     LC50      145.790
+Neutral Organics           : Green Algae         96-hr     EC50       84.427
+Neutral Organics           : Fish                          ChV        24.824
+Neutral Organics           : Daphnid                       ChV        12.001
+Neutral Organics           : Green Algae                   ChV        19.306
+Neutral Organics           : Fish (SW)           96-hr     LC50      342.184
+Neutral Organics           : Mysid               96-hr     LC50      397.543
+Neutral Organics           : Fish (SW)                     ChV        24.829
+Neutral Organics           : Mysid (SW)                    ChV        41.779
+Neutral Organics           : Earthworm           14-day    LC50      172.849
+
+ Note:  * = asterisk designates: Chemical may not be soluble enough to
+        measure this predicted effect. If the effect level exceeds the
+        water solubility by 10X, typically no effects at saturation (NES)
+        are reported.
+ 
+ 
+------------------------------
+Class Specific LogKow Cut-Offs
+------------------------------
+If the log Kow of the chemical is greater than the endpoint specific cut-offs
+presented below, then no effects at saturation are expected for those endpoints.
+ 
+Neutral Organics:
+----------------
+Maximum LogKow: 5.0 (Fish 96-hr LC50; Daphnid LC50, Mysid LC50)
+Maximum LogKow: 6.0 (Earthworm LC50)
+Maximum LogKow: 6.4 (Green Algae EC50)
+Maximum LogKow: 8.0 (ChV)
+ 
+
+
+
+
+HENRY (v3.20) Program Results:
+=============================
+
+       Bond Est :  9.14E-003 atm-m3/mole  (9.26E+002 Pa-m3/mole)
+       Group Est:  3.01E-003 atm-m3/mole  (3.05E+002 Pa-m3/mole)
+
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+--------------------------- HENRYWIN v3.20 Results --------------------------
+ 
+Experimental Database Structure Match:
+  Name     :  DICHLOROMETHANE
+  CAS Num  :  000075-09-2
+  Exp HLC  :  3.25E-03 atm-m3/mole  (329 Pa-m3/mole)
+  Temper   :  25 deg C
+  Exp Ref  :  LEIGHTON,DTJR & CALO,JM (1981) 
+ 
+----------+---------------------------------------------+---------+---------- 
+   CLASS  |     BOND CONTRIBUTION DESCRIPTION           | COMMENT |  VALUE
+----------+---------------------------------------------+---------+---------- 
+ HYDROGEN |   2  Hydrogen to Carbon (aliphatic) Bonds   |         | -0.2394
+ FRAGMENT |   2  C-CL                                   |         |  0.6669
+----------+---------------------------------------------+---------+---------- 
+ RESULT   |    BOND ESTIMATION METHOD for LWAPC VALUE   |  TOTAL  |  0.428
+----------+---------------------------------------------+---------+---------- 
+HENRYs LAW CONSTANT at 25 deg C = 9.14E-003 atm-m3/mole
+                                = 3.74E-001 unitless
+                                = 9.26E+002 Pa-m3/mole
+
+--------+-----------------------------------------------+------------+--------
+        |        GROUP CONTRIBUTION DESCRIPTION         |   COMMENT  |  VALUE 
+--------+-----------------------------------------------+------------+--------
+        |           1  CH2-CL2                          |EXPERIMENTAL|  0.91
+--------+-----------------------------------------------+------------+--------
+ RESULT |  GROUP ESTIMATION METHOD for LOG GAMMA VALUE  |    TOTAL   |  0.91
+--------+-----------------------------------------------+------------+--------
+HENRYs LAW CONSTANT at 25 deg C = 3.01E-003 atm-m3/mole
+                                = 1.23E-001 unitless
+                                = 3.05E+002 Pa-m3/mole
+
+
+For Henry LC Comparison Purposes:
+  Exper Database: 3.25E-03  atm-m3/mole  (3.29E+002 Pa-m3/mole)
+  User-Entered Henry LC:  not entered
+  Henrys LC [via VP/WSol estimate using User-Entered or Estimated values]:
+     HLC:  4.409E-003 atm-m3/mole  (4.467E+002 Pa-m3/mole)
+     VP:   432 mm Hg (source: MPBPVP)
+     WS:   1.1E+004 mg/L (source: WSKOWWIN)
+
+
+
+Log Octanol-Air (KOAWIN v1.10) Results:
+======================================
+
+          Log Koa: 2.127
+
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+--------------------------- KOAWIN v1.10 Results --------------------------
+
+Experimental Database Structure Match:
+  Name      :  Dichloromethane
+  CAS Num   :  000075-09-2
+  Exp LogKoa:  2.27 
+  Exp Ref   :  Abraham,MH et al. (2001) 
+ 
+Log Koa (octanol/air) estimate:  2.127
+    Koa (octanol/air) estimate:  133.8
+ Using:
+   Log Kow:  1.25  (exp database)
+   HenryLC:  0.00325  atm-m3/mole (exp database)
+   Log Kaw:  -0.877  (air/water part.coef.)
+
+ LogKow  : 1.25 (exp database)
+ LogKow  : 1.34 (KowWin estimate)
+ Henry LC: 0.00325 atm-m3/mole (exp database)
+ Henry LC: 0.00914 atm-m3/mole (HenryWin bond estimate)
+
+ Log Koa (octanol/air) estimate:  1.768 (from KowWin/HenryWin)
+
+
+
+BIOWIN (v4.10) Program Results:
+==============================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+--------------------------- BIOWIN v4.10 Results ----------------------------
+
+   Biowin1 (Linear Model Prediction)    :  Does Not Biodegrade Fast
+   Biowin2 (Non-Linear Model Prediction):  Does Not Biodegrade Fast
+   Biowin3 (Ultimate Biodegradation Timeframe):  Weeks-Months
+   Biowin4 (Primary  Biodegradation Timeframe):  Days-Weeks
+   Biowin5 (MITI Linear Model Prediction)    :  Biodegrades Fast
+   Biowin6 (MITI Non-Linear Model Prediction):  Does Not Biodegrade Fast
+   Biowin7 (Anaerobic Model Prediction):  Biodegrades Fast
+   Ready Biodegradability Prediction:  NO
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin1 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -0.1114 | -0.2228
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.0404
+ Const|  *  |  Equation Constant                         |         |  0.7475
+============+============================================+=========+=========
+   RESULT   |    Biowin1 (Linear Biodeg Probability)     |         |  0.4843
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin2 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -1.8528 | -3.7056
+ MolWt|  *  |  Molecular Weight Parameter                |         | -1.2060
+============+============================================+=========+=========
+   RESULT   |  Biowin2 (Non-Linear Biodeg Probability)   |         |  0.1298
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Biodegrades Fast
+ A Probability Less Than 0.5 indicates --> Does NOT Biodegrade Fast
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin3 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -0.1732 | -0.3464
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.1877
+ Const|  *  |  Equation Constant                         |         |  3.1992
+============+============================================+=========+=========
+   RESULT   |  Biowin3 (Survey Model - Ultimate Biodeg)  |         |  2.6651
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin4 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -0.1006 | -0.2012
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.1225
+ Const|  *  |  Equation Constant                         |         |  3.8477
+============+============================================+=========+=========
+   RESULT   |   Biowin4 (Survey Model - Primary Biodeg)  |         |  3.5240
+============+============================================+=========+=========
+
+ Result Classification:   5.00 -> hours     4.00 -> days    3.00 -> weeks
+  (Primary & Ultimate)    2.00 -> months    1.00 -> longer
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin5 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                |  0.0011 |  0.0022
+ Frag |  1  |  -CH2-  [linear]                           |  0.0494 |  0.0494
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.2527
+ Const|  *  |  Equation Constant                         |         |  0.7121
+============+============================================+=========+=========
+   RESULT   |  Biowin5 (MITI Linear Biodeg Probability)  |         |  0.5111
+============+============================================+=========+=========
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin6 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -0.6391 | -1.2783
+ Frag |  1  |  -CH2-  [linear]                           |  0.4295 |  0.4295
+ MolWt|  *  |  Molecular Weight Parameter                |         | -2.4519
+============+============================================+=========+=========
+   RESULT   |Biowin6 (MITI Non-Linear Biodeg Probability)|         |  0.3154
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Readily Degradable
+ A Probability Less Than 0.5 indicates --> NOT Readily Degradable
+
+
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM |       Biowin7 FRAGMENT DESCRIPTION         |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                | -0.0147 | -0.0293
+ Frag |  1  |  -CH2-  [linear]                           |  0.0260 |  0.0260
+ Const|  *  |  Equation Constant                         |         |  0.8361
+============+============================================+=========+=========
+   RESULT   |   Biowin7 (Anaerobic Linear Biodeg Prob)   |         |  0.8328
+============+============================================+=========+=========
+
+ A Probability Greater Than or Equal to 0.5 indicates --> Biodegrades Fast
+ A Probability Less Than 0.5 indicates --> Does NOT Biodegrade Fast
+
+Ready Biodegradability Prediction: (YES or NO)
+----------------------------------------------
+ Criteria for the YES or NO prediction:  If the Biowin3 (ultimate survey
+ model) result is "weeks" or faster (i.e. "days", "days to weeks", or
+ "weeks" AND the Biowin5 (MITI linear model) probability is >= 0.5, then
+ the prediction is YES (readily biodegradable).  If this condition is not
+ satisfied, the prediction is NO (not readily biodegradable).  This method
+ is based on application of Bayesian analysis to ready biodegradation data
+ (see Help).  Biowin5 and 6 also predict ready biodegradability, but for
+ degradation in the OECD301C test only; using data from the Chemicals
+ Evaluation and Research Institute Japan (CERIJ) database.
+
+
+
+
+BioHCwin (v1.01) Program Results:
+==============================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+-------------------------- BioHCwin v1.01 Results ---------------------------
+
+  NO Estimate Possible ... Structure NOT a Hydrocarbon
+    (Contains atoms other than C, H or S (-S-))
+
+
+
+AEROWIN Program (v1.00) Results:
+===============================
+ Sorption to aerosols (25 Dec C)[AEROWIN v1.00]:
+  Vapor pressure (liquid/subcooled):  5.8E+004 Pa (435 mm Hg)
+  Log Koa (Exp database): 2.270
+   Kp (particle/gas partition coef. (m3/ug)):
+       Mackay model           :  5.17E-011 
+       Octanol/air (Koa) model:  4.57E-011 
+   Fraction sorbed to airborne particulates (phi):
+       Junge-Pankow model     :  1.87E-009 
+       Mackay model           :  4.14E-009 
+       Octanol/air (Koa) model:  3.66E-009 
+
+
+AOP Program (v1.92) Results:
+===========================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+------------------- SUMMARY (AOP v1.92): HYDROXYL RADICALS (25 deg C) --------
+Hydrogen Abstraction       =   0.1349 E-12 cm3/molecule-sec
+Reaction with N, S and -OH =   0.0000 E-12 cm3/molecule-sec
+Addition to Triple Bonds   =   0.0000 E-12 cm3/molecule-sec
+Addition to Olefinic Bonds =   0.0000 E-12 cm3/molecule-sec
+Addition to Aromatic Rings =   0.0000 E-12 cm3/molecule-sec
+Addition to Fused Rings    =   0.0000 E-12 cm3/molecule-sec
+
+   OVERALL OH Rate Constant =   0.1349 E-12 cm3/molecule-sec
+   HALF-LIFE =    79.306 Days (12-hr day; 1.5E6 OH/cm3)
+------------------- SUMMARY (AOP v1.91): OZONE REACTION (25 deg C) -----------
+
+               ******  NO OZONE REACTION ESTIMATION ******
+               (ONLY Olefins and Acetylenes are Estimated)
+
+Experimental Database Structure Match:
+  Chem Name :  Dichloromethane
+  CAS Number:  000075-09-2
+  Exper OH rate constant   :  0.142  E-12  cm3/molecule-sec
+    Exper OH Reference:  ATKINSON,R (1989)
+  Exper Ozone rate constant:  ---  cm3/molecule-sec
+  Exper NO3 rate constant  :  1.66E-17  cm3/molecule-sec
+Fraction sorbed to airborne particulates (phi):
+  3E-009 (Junge-Pankow, Mackay avg)
+  3.66E-009 (Koa method)
+     Note: the sorbed fraction may be resistant to atmospheric oxidation
+
+
+
+
+KOCWIN Program (v2.00) Results:
+==============================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+ 
+-------------------------------------
+Experimental Database Structure Match:
+  Name     :  Dichloromethane
+  CAS Num  :  000075-09-2
+  Exp LogKoc:  1.44 
+  Exp Ref  :  SRC (1991); Meylan et al (1992) 
+ 
+---------------------------  KOCWIN v2.00 Results  ---------------------------
+
+  Koc Estimate from MCI:
+  ---------------------
+         First Order Molecular Connectivity Index  ........... :  1.414
+         Non-Corrected Log Koc (0.5213 MCI + 0.60)  .......... :  1.3370
+         Fragment Correction(s) -->  NONE                      :   ---
+         Corrected Log Koc  .................................. :  1.3370
+
+                         Estimated Koc:  21.73  L/kg   <===========
+
+  Koc Estimate from Log Kow:
+  -------------------------
+         Log Kow  (experimental DB)  ......................... :  1.25
+         Non-Corrected Log Koc (0.8679 logKow - 0.0004)  ..... :  1.0845
+         Fragment Correction(s) -->  NONE                      :   ---
+         Corrected Log Koc  .................................. :  1.0845
+
+                         Estimated Koc:  12.15  L/kg   <===========
+ 
+
+
+
+HYDROWIN Program (v2.00) Results:
+================================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+--------------------------- HYDROWIN v2.00 Results ---------------------------
+
+
+                  Y2
+                  |
+HALOMETHANE:   Y1-C-X                    X: -CL                 
+                  |                     Y1: -CL                 
+                  Y3                    Y2: -H                  
+                                        Y3: -H                  
+ Kb hydrolysis at atom #  1:  5.095E-009  L/mol-sec
+
+ Total Kb for pH > 8 at 25 deg C :  5.095E-009  L/mol-sec
+ Kb Half-Life at pH 8: 4.311E+006  years  
+ Kb Half-Life at pH 7: 4.311E+007  years  
+
+   The rate constant estimated for the HALOMETHANE DOES NOT
+   include the neutral hydrolysis rate constant!!
+   For some halomethanes, the neutral rate constant is the
+   dominant hydrolysis rate at environmental pHs!
+   If the neutral rate constant is important, the HYDRO
+   estimated rate will under-estimate the actual rate!
+
+
+
+BCFBAF Program (v3.01) Results:
+==============================
+SMILES : C(CL)CL
+CHEM   : 
+MOL FOR: C1 H2 CL2 
+MOL WT : 84.93
+--------------------------------- BCFBAF v3.01 --------------------------------
+Summary Results:
+  Log BCF (regression-based estimate):  0.49  (BCF = 3.1 L/kg wet-wt)
+  Biotransformation Half-Life (days) :  0.237  (normalized to 10 g fish)
+  Log BAF (Arnot-Gobas upper trophic):  0.42  (BAF = 2.63 L/kg wet-wt)
+ 
+Experimental BCF-kM Database Structure Match:
+--------------------------------------------
+  Name      :  Methane, dichloro-
+  CAS Num   :  000075-09-2
+  Log BCF   :  1.3636  (BCF = 23.1 L/kg wet-wt)
+  BCF Data  :  BCF NonIonic Training Set
+  Log Bio HL:  -0.509  (Bio Half-life = 0.31 days)
+  Bio Data  :  kM Training Set
+ 
+Log Kow (experimental):  1.25
+Log Kow used by BCF estimates:  1.25
+
+Equation Used to Make BCF estimate:
+   Log BCF = 0.6598 log Kow - 0.333 + Correction
+
+      Correction(s):                    Value
+       No Applicable Correction Factors
+
+   Estimated Log BCF =  0.492  (BCF = 3.103 L/kg wet-wt)
+
+===========================================================
+Whole Body Primary Biotransformation Rate Estimate for Fish:
+===========================================================
+------+-----+--------------------------------------------+---------+---------
+ TYPE | NUM | LOG BIOTRANSFORMATION FRAGMENT DESCRIPTION |  COEFF  |  VALUE  
+------+-----+--------------------------------------------+---------+---------
+ Frag |  2  |  Aliphatic chloride   [-CL]                |  0.3608 |  0.7215
+ Frag |  1  |  -CH2-  [linear]                           |  0.0242 |  0.0242
+ L Kow|  *  |  Log Kow =   1.25 (experimental   )        |  0.3073 |  0.3842
+ MolWt|  *  |  Molecular Weight Parameter                |         | -0.2178
+ Const|  *  |  Equation Constant                         |         | -1.5371
+============+============================================+=========+=========
+   RESULT   |        LOG Bio Half-Life (days)            |         | -0.6250
+   RESULT   |            Bio Half-Life (days)            |         |  0.2371
+   NOTE     |  Bio Half-Life Normalized to 10 g fish at 15 deg C   |
+============+============================================+=========+=========
+
+Biotransformation Rate Constant:
+ kM (Rate Constant):  2.923 /day (10 gram fish) 
+ kM (Rate Constant):  1.644 /day (100 gram fish) 
+ kM (Rate Constant):  0.9243 /day (1 kg fish) 
+ kM (Rate Constant):  0.5198 /day (10 kg fish) 
+
+Note: For Arnot-Gobas BCF & BAF Methods, Experimental Km Half-Life Used:
+   Exp Km Half-Life = -0.509 days (Rate Constant = 2.238/ day)
+Arnot-Gobas BCF & BAF Methods (including biotransformation rate estimates):
+   Estimated Log BCF (upper trophic) =  0.420  (BCF = 2.63 L/kg wet-wt)
+   Estimated Log BAF (upper trophic) =  0.420  (BAF = 2.63 L/kg wet-wt)
+   Estimated Log BCF (mid trophic)   =  0.322  (BCF = 2.098 L/kg wet-wt)
+   Estimated Log BAF (mid trophic)   =  0.322  (BAF = 2.098 L/kg wet-wt)
+   Estimated Log BCF (lower trophic) =  0.294  (BCF = 1.967 L/kg wet-wt)
+   Estimated Log BAF (lower trophic) =  0.294  (BAF = 1.968 L/kg wet-wt)
+ 
+Arnot-Gobas BCF & BAF Methods (assuming a biotransformation rate of zero):
+   Estimated Log BCF (upper trophic) =  0.446  (BCF = 2.795 L/kg wet-wt)
+   Estimated Log BAF (upper trophic) =  0.451  (BAF = 2.823 L/kg wet-wt)
+ 
+
+
+
+
+                            Volatilization From Water 
+                            ========================= 
+
+Chemical Name: 
+
+Molecular Weight    :  84.93 g/mole 
+Water Solubility    :  ----- 
+Vapor Pressure      :  ----- 
+Henry's Law Constant:  0.00325 atm-m3/mole  (Henry experimental database) 
+
+                             RIVER             LAKE 
+                           ---------         --------- 
+Water Depth     (meters):   1                 1          
+Wind Velocity    (m/sec):   5                 0.5        
+Current Velocity (m/sec):   1                 0.05       
+
+      HALF-LIFE (hours) :   1.106             89.34      
+      HALF-LIFE (days ) :   0.0461            3.723      
+
+
+STP Fugacity Model:  Predicted Fate in a Wastewater Treatment Facility
+======================================================================
+   (using 10000 hr Bio P,A,S)
+PROPERTIES OF: 
+-------------
+Molecular weight (g/mol)                               84.93 
+Aqueous solubility (mg/l)                              0 
+Vapour pressure (Pa)                                   0 
+                (atm)                                  0 
+                (mm Hg)                                0 
+Henry 's law constant (Atm-m3/mol)                     0.00325 
+Air-water partition coefficient                        0.132915 
+Octanol-water partition coefficient (Kow)              17.7828 
+Log Kow                                                1.25 
+Biomass to water partition coefficient                 4.35656 
+Temperature [deg C]                                    25 
+Biodeg rate constants (h^-1),half life in biomass (h) and in 2000 mg/L MLSS (h):
+          -Primary tank        0.01        86.38       10000.00
+          -Aeration tank       0.01        86.38       10000.00
+          -Settling tank       0.01        86.38       10000.00
+
+ STP Overall Chemical Mass Balance:
+ ---------------------------------
+                             g/h               mol/h          percent
+ 
+Influent                    1.00E+001         1.2E-001        100.00
+ 
+Primary sludge              2.88E-002         3.4E-004         0.29
+Waste sludge                6.73E-002         7.9E-004         0.67
+Primary volatilization      1.22E-001         1.4E-003         1.22
+Settling volatilization     1.48E-001         1.7E-003         1.48
+Aeration off gas            5.32E+000         6.3E-002        53.19
+
+Primary biodegradation      1.75E-003         2.1E-005         0.02
+Settling biodegradation     2.33E-004         2.7E-006         0.00
+Aeration biodegradation     3.12E-003         3.7E-005         0.03
+ 
+Final water effluent        4.31E+000         5.1E-002        43.09
+ 
+Total removal               5.69E+000         6.7E-002        56.91
+Total biodegradation        5.10E-003         6.0E-005         0.05
+
+
+
+STP Fugacity Model:  Predicted Fate in a Wastewater Treatment Facility
+======================================================================
+   (using Biowin/EPA draft method)
+PROPERTIES OF: 
+-------------
+Molecular weight (g/mol)                               84.93 
+Aqueous solubility (mg/l)                              0 
+Vapour pressure (Pa)                                   0 
+                (atm)                                  0 
+                (mm Hg)                                0 
+Henry 's law constant (Atm-m3/mol)                     0.00325 
+Air-water partition coefficient                        0.132915 
+Octanol-water partition coefficient (Kow)              17.7828 
+Log Kow                                                1.25 
+Biomass to water partition coefficient                 4.35656 
+Temperature [deg C]                                    25 
+Biodeg rate constants (h^-1),half life in biomass (h) and in 2000 mg/L MLSS (h):
+          -Primary tank        0.80         0.86         100.00
+          -Aeration tank       8.02         0.09          10.00
+          -Settling tank       8.02         0.09          10.00
+
+ STP Overall Chemical Mass Balance:
+ ---------------------------------
+                             g/h               mol/h          percent
+ 
+Influent                    1.00E+001         1.2E-001        100.00
+ 
+Primary sludge              2.83E-002         3.3E-004         0.28
+Waste sludge                4.85E-002         5.7E-004         0.49
+Primary volatilization      1.20E-001         1.4E-003         1.20
+Settling volatilization     1.07E-001         1.3E-003         1.07
+Aeration off gas            3.94E+000         4.6E-002        39.41
+
+Primary biodegradation      1.72E-001         2.0E-003         1.72
+Settling biodegradation     1.68E-001         2.0E-003         1.68
+Aeration biodegradation     2.31E+000         2.7E-002        23.13
+ 
+Final water effluent        3.10E+000         3.7E-002        31.03
+ 
+Total removal               6.90E+000         8.1E-002        68.97
+Total biodegradation        2.65E+000         3.1E-002        26.52
+
+
+Level III Fugacity Model (Full-Output):
+=======================================
+  Chem Name   : 
+  Molecular Wt: 84.93
+  Henry's LC  : 0.00325 atm-m3/mole (Henry database)
+  Vapor Press : 432 mm Hg  (Mpbpwin program)
+  Log Kow     : 1.25  (Kowwin program)
+  Soil Koc    : 21.7  (KOCWIN MCI method)
+
+           Mass Amount    Half-Life    Emissions
+            (percent)        (hr)       (kg/hr)
+   Air       43.8            1.81e+003    1000       
+   Water     45              900          1000       
+   Soil      11              1.8e+003     1000       
+   Sediment  0.132           8.1e+003     0          
+
+             Fugacity    Reaction    Advection   Reaction    Advection
+              (atm)      (kg/hr)      (kg/hr)    (percent)   (percent)
+   Air       7.02e-010    93.5        2.44e+003   3.12        81.3      
+   Water     4.8e-008     193         251         6.43        8.36      
+   Soil      1.54e-007    23.6        0           0.788       0         
+   Sediment  4.64e-008    0.0631      0.0147      0.0021      0.000491  
+
+   Persistence Time: 186 hr
+   Reaction Time:    1.79e+003 hr
+   Advection Time:   207 hr
+   Percent Reacted:  10.3
+   Percent Advected: 89.7
+
+   Half-Lives (hr), (based upon Biowin (Ultimate) and Aopwin):
+      Air:      1808
+      Water:    900
+      Soil:     1800
+      Sediment: 8100
+        Biowin estimate: 2.665  (weeks-months)
+
+   Advection Times (hr):
+      Air:      100
+      Water:    1000
+      Sediment: 5e+004
+
+
+
+========================
+

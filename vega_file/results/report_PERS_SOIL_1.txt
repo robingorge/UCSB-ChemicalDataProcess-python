@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (soil) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in soil	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	vP (EXPERIMENTAL value)	vP	1	vP		0.9	1	1	1	0.9	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	nP (moderate reliability)	nP	3	-	nP (soil) alert no. 15	0.718	0.771	0.668	0.668	1	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	nP (good reliability)	nP	3	-	nP (soil) alert no. 15	0.919	0.844	1	1	1	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	nP (good reliability)	nP	3	-	nP (soil) alert no. 1; nP (soil) alert no. 15	0.921	0.849	1	1	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+7	Molecule 7	O=C(O[Na])O[Na]	nP (low reliability)	nP	3	-	nP (soil) alert no. 16; nP (soil) alert no. 18; nP (soil) alert no. 20	0.354	0.783	1	1	1	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	nP/P (low reliability)	nP/P	2	-	nP (soil) alert no. 6; nP (soil) alert no. 20	0.505	0.708	1	1	1	0.6	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	nP (low reliability)	nP	3	-	nP (soil) alert no. 18; nP (soil) alert no. 20	0.35	0.766	1	1	1	0.4	-
+11	Molecule 11	O=[Ti]=O	nP (low reliability)	nP	3	-		0.313	0.754	1	1	0.9	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	nP/P (moderate reliability)	nP/P	3	-		0.742	0.832	1	0.669	0.9	1	-
+13	Molecule 13	O=C1NSc2ccccc12	nP/P (low reliability)	nP/P	3	-	nP (soil) alert no. 22	0.48	0.795	1	0.648	1	0.6	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	nP (moderate reliability)	nP	0	-	nP (soil) alert no. 15	0.7	0.678	1	1	0.85	1	-

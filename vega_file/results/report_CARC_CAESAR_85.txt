@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (CAESAR) (version 2.1.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Carcinogen activity	P(Carcinogen)	P(NON-Carcinogen)	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Pos/Non-Pos difference	Neurons concordance	Remarks
+1	Molecule 1	C(=C(C)C)CCl	Carcinogen (moderate reliability)	Carcinogen	0.843	0.157	-	0.767	0.827	1	0.507	True	1	0.685	1	-

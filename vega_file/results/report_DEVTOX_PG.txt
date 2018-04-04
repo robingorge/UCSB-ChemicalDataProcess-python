@@ -1,0 +1,28 @@
+Prediction and Applicability Domain analysis for model:
+Developmental/Reproductive Toxicity library (PG) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Developmental and Reproductive activity	Matching library description	Experimental	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccccc1	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.882	1	0	1	-
+2	Molecule 2	CC	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0.599	0.717	0.486	0.514	1	-
+3	Molecule 3	KO	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string KO. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string KO.
+4	Molecule 4	c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1.
+5	Molecule 5	O=C(O[Na])c3nn(c1ccc(cc1)S(=O)(=O)O[Na])c(O[Na])c3(N=Nc2ccc(cc2)S(=O)(=O)O[Na])	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.733	0.496	0	0.34	-
+6	Molecule 6	O=C(O[Na])O[Na]	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.801	1	0	0.34	-
+7	Molecule 7	N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O)	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O). [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O).
+8	Molecule 8	O=C(O[Na])O[Na]	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.801	1	0	0.34	-
+9	Molecule 9	O=C(O[Na])C(=C)C	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.887	1	0	0.4	-
+10	Molecule 10	OCC(O)CO	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.865	1	0	1	-
+11	Molecule 11	O=C(N)N	Toxicant (good reliability)	Toxicant	Vinyl amides, aldehydes, esters and alkyl amides (<C4), N-substituted amides, ureas, carbonates, guanidine and carbamates	-	0.935	0.874	1	1	1	-
+12	Molecule 12	O=C(O)CC(O)(C(=O)O)CC(=O)O	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.772	0.531	0	1	-
+13	Molecule 13	O=P(O)(O)CN(CP(=O)(O)O)CP(=O)(O)O	Toxicant (low reliability)	Toxicant	Organophosphorus compounds	-	0	0.764	0	1	0.6	-
+14	Molecule 14	C(=O)(O)C=C[Na+][O-]S(=O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] For input string: "12801-1". [Model] Unable to calculate model, input molecule is not valid. For input string: "12801-1".
+15	Molecule 15	OCCOCCOCCOCCOCCCCCCCCCC	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.807	1	0	1	-
+16	Molecule 16	O=[Si](O[Na])O[Na]	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.73	1	0	0.4	-
+17	Molecule 17	O(CC)CCCCCCCCCCCC	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.821	0.499	0	1	-
+18	Molecule 18	O(CC)CCCCCCCCCCCC	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.821	0.499	0	1	-
+19	Molecule 19	[Na]CL	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string [Na]CL. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string [Na]CL.
+20	Molecule 20	O=S(=O)(O[Na])O[Na]	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.816	1	0	0.4	-
+21	Molecule 21	O=P(O[Na])(O[Na])OP(=O)(O[Na])OP(=O)(O[Na])O[Na]	Toxicant (low reliability)	Toxicant	Organophosphorus compounds	-	0	0.694	0	1	0.34	-
+22	Molecule 22	OCCOCCOCCOCCOCCOCC(OCC(OCC(OCC(OCC(O)C)C)C)C)C	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.699	0.497	0	1	-
+23	Molecule 23	OCC3OC(OC1C(O)C(O)C(OC1(CO))OC2C(O)C(O)C(O)OC2(CO))C(O)C(O)C3(O)	NON-Toxicant (low reliability)	NON-Toxicant	-	-	0	0.866	1	0	1	-

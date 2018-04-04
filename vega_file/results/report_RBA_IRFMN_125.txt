@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Estrogen Receptor Relative Binding Affinity model (IRFMN) (version 1.0.1)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted activity	Classification tree final node	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	cccc	Inactive (low reliability)	Inactive	4	-	0	0.659	1	1	False	0.4	-

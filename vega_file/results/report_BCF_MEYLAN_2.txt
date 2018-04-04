@@ -1,0 +1,28 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (Meylan) (version 1.0.3)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted BCF [log(L/kg)]	Predicted BCF [L/kg]	Predicted LogP (Meylan/Kowwin)	Predicted LogP reliability	MW	Ionic compound	Experimental [log(L/kg)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	LogP reliability	Descriptors range check	ACF index	Remarks
+1	Molecule 1	c1ccccc1	0.63  log(L/kg) (EXPERIMENTAL value)	1.07	12	2.13	Experimental	77.83	no	0.63	1	1	0.442	0.442	0.442	1	True	1	-
+2	Molecule 2	CC	0.86  log(L/kg) (low reliability)	0.86	7	1.81	Experimental	29.79	no	-	0	0.666	0.17	1.025	0.23	1	False	1	-
+3	Molecule 3	KO	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string KO. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string KO.
+4	Molecule 4	c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1.
+5	Molecule 5	O=C(O[Na])c3nn(c1ccc(cc1)S(=O)(=O)O[Na])c(O[Na])c3(N=Nc2ccc(cc2)S(=O)(=O)O[Na])	0.5  log(L/kg) (low reliability)	0.5	3	0.6	Low	-11998.99	no	-	0	0.835	0.18	0.18	0.34	0	False	0.34	-
+6	Molecule 6	O=C(O[Na])O[Na]	0.5  log(L/kg) (low reliability)	0.5	3	-2.83	Low	-11998.99	no	-	0	0.763	0.37	0.37	0.39	0	False	0.4	-
+7	Molecule 7	N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O)	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O). [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O).
+8	Molecule 8	O=C(O[Na])O[Na]	0.5  log(L/kg) (low reliability)	0.5	3	-2.83	Low	-11998.99	no	-	0	0.763	0.37	0.37	0.39	0	False	0.4	-
+9	Molecule 9	O=C(O[Na])C(=C)C	0.5  log(L/kg) (low reliability)	0.5	3	0.73	Good	-11998.99	no	-	0	0.766	0.25	0.25	0.36	1	False	0.4	-
+10	Molecule 10	OCC(O)CO	0.5  log(L/kg) (low reliability)	0.5	3	-1.76	Experimental	91.64	no	-	0	0.88	0.285	0.285	0.4	1	False	1	-
+11	Molecule 11	O=C(N)N	0.5  log(L/kg) (low reliability)	0.5	3	-2.11	Experimental	59.93	no	-	0	0.806	0.105	0.105	0.2	1	False	1	-
+12	Molecule 12	O=C(O)CC(O)(C(=O)O)CC(=O)O	0.5  log(L/kg) (moderate reliability)	0.5	3	-1.64	Experimental	191.58	yes	-	0.85	0.795	0.16	0.16	0.2	1	True	1	-
+13	Molecule 13	O=P(O)(O)CN(CP(=O)(O)O)CP(=O)(O)O	0.5  log(L/kg) (low reliability)	0.5	3	-4.55	Low	298.35	no	-	0	0.672	1.37	0.55	2.439	0	False	0.4	-
+14	Molecule 14	C(=O)(O)C=C[Na+][O-]S(=O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "12801-1". [Model] Unable to calculate model, input molecule is not valid. For input string: "12801-1".
+15	Molecule 15	OCCOCCOCCOCCOCCCCCCCCCC	1.44  log(L/kg) (moderate reliability)	1.44	28	2.69	Moderate	332.58	no	-	0.85	0.826	0.373	0.37	0.556	0.7	True	1	-
+16	Molecule 16	O=[Si](O[Na])O[Na]	0.5  log(L/kg) (low reliability)	0.5	3	-1.6	Low	-11998.99	no	-	0	0.729	0.575	0.575	0.8	0	False	0.4	-
+17	Molecule 17	O(CC)CCCCCCCCCCCC	2.23  log(L/kg) (low reliability)	2.23	168	5.96	Moderate	212.96	no	-	0.75	0.834	1.258	0.365	1.9	0.7	True	1	-
+18	Molecule 18	O(CC)CCCCCCCCCCCC	2.23  log(L/kg) (low reliability)	2.23	168	5.96	Moderate	212.96	no	-	0.75	0.834	1.258	0.365	1.9	0.7	True	1	-
+19	Molecule 19	[Na]CL	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string [Na]CL. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string [Na]CL.
+20	Molecule 20	O=S(=O)(O[Na])O[Na]	0.5  log(L/kg) (low reliability)	0.5	3	-0.93	Moderate	-11998.99	no	-	0	0.737	0.575	0.575	0.8	0.7	False	0.34	-
+21	Molecule 21	O=P(O[Na])(O[Na])OP(=O)(O[Na])OP(=O)(O[Na])O[Na]	0.5  log(L/kg) (low reliability)	0.5	3	-5	Low	-11998.99	no	-	0	0.712	1.395	0.575	2.439	0	False	0.4	-
+22	Molecule 22	OCCOCCOCCOCCOCCOCC(OCC(OCC(OCC(OCC(O)C)C)C)C)C	0.5  log(L/kg) (low reliability)	0.5	3	-1.58	Low	525.96	no	-	0	0.803	0.935	1.34	1.68	0	False	1	-
+23	Molecule 23	OCC3OC(OC1C(O)C(O)C(OC1(CO))OC2C(O)C(O)C(O)OC2(CO))C(O)C(O)C3(O)	0.5  log(L/kg) (low reliability)	0.5	3	-5	Low	502.54	no	-	0	0.715	0.33	0.735	0.47	0	False	0.85	-

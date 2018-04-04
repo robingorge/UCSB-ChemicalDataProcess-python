@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Developmental/Reproductive Toxicity library (PG) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Developmental and Reproductive activity	Matching library description	Experimental	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	ers	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string ers. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string ers.

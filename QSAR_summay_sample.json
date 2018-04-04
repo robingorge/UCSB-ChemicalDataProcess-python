@@ -1,0 +1,657 @@
+[
+    {
+        "BCF": {
+            "average": 732.8245331389045,
+            "maximum": 1258.9254117941675,
+            "minimum": 426.57951880159254,
+            "note": "medium",
+            "sample_size": 2,
+            "source": "EPI Suite",
+            "standard_deviation": 0.2350000000000001,
+            "unit": "L/kg wet-wt"
+        },
+        "BP": {
+            "average": 40.0,
+            "maximum": 40.0,
+            "minimum": 40.0,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "C"
+        },
+        "CAS": "000075-09-2",
+        "ER": {
+            "average": "na",
+            "count_negative": 0,
+            "count_not_classified": 0,
+            "count_positive": 0,
+            "note": "na",
+            "sample_size": 0,
+            "source": "VEGA",
+            "unit": "na"
+        },
+        "FP": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "C"
+        },
+        "HLC": {
+            "average": 329.0,
+            "maximum": 329.0,
+            "minimum": 329.0,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "Pa-m3/mole"
+        },
+        "HL_aer": {
+            "average": 8100.0,
+            "maximum": 8100.0,
+            "minimum": 8100.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "HL_air": {
+            "average": 1810.0,
+            "maximum": 1810.0,
+            "minimum": 1810.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "HL_sediment": {
+            "average": 8100.0,
+            "maximum": 8100.0,
+            "minimum": 8100.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "HL_soil": {
+            "average": 1800.0,
+            "maximum": 1800.0,
+            "minimum": 1800.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "HL_sussed": {
+            "average": 8100.0,
+            "maximum": 8100.0,
+            "minimum": 8100.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "HL_water": {
+            "average": 900.0,
+            "maximum": 900.0,
+            "minimum": 900.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "h"
+        },
+        "Kaw": {
+            "average": 0.13273944577297395,
+            "maximum": 0.13273944577297395,
+            "minimum": 0.13273944577297395,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "Kb_HL_pH7": {
+            "average": 15735150000.0,
+            "maximum": 15735150000.0,
+            "minimum": 15735150000.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "Kb_HL_pH8": {
+            "average": 1573515000.0,
+            "maximum": 1573515000.0,
+            "minimum": 1573515000.0,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "Kb_rateC": {
+            "average": 5.095e-09,
+            "maximum": 5.095e-09,
+            "minimum": 5.095e-09,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "L/mol-sec"
+        },
+        "Km_10": {
+            "average": 2.923,
+            "maximum": 2.923,
+            "minimum": 2.923,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "/day"
+        },
+        "Koa": {
+            "average": 186.20871366628674,
+            "maximum": 186.20871366628674,
+            "minimum": 186.20871366628674,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "Koc": {
+            "average": 27.542287033381662,
+            "maximum": 27.542287033381662,
+            "minimum": 27.542287033381662,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "L/kg"
+        },
+        "Kow": {
+            "average": 17.78279410038923,
+            "maximum": 17.78279410038923,
+            "minimum": 17.78279410038923,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "Kp": {
+            "average": 4.87e-11,
+            "maximum": 5.17e-11,
+            "minimum": 4.57e-11,
+            "note": "medium",
+            "sample_size": 2,
+            "source": "EPI Suite",
+            "standard_deviation": 2.9999999999999993e-12,
+            "unit": "m3/ug"
+        },
+        "MD": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "g/cm3"
+        },
+        "MP": {
+            "average": -95.1,
+            "maximum": -95.1,
+            "minimum": -95.1,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "C"
+        },
+        "MW": {
+            "average": 84.93,
+            "maximum": 84.93,
+            "minimum": 84.93,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "g/mol"
+        },
+        "No.": 1,
+        "OH_HL": {
+            "average": 79.306,
+            "maximum": 79.306,
+            "minimum": 79.306,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "OratLD50": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "mg/kg"
+        },
+        "Smiles": "C(CL)CL",
+        "TC": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "mW/mK"
+        },
+        "VP": {
+            "average": 57995.23965,
+            "maximum": 57995.23965,
+            "minimum": 57995.23965,
+            "note": "exp",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "Pa"
+        },
+        "Vis": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "cP"
+        },
+        "WS": {
+            "average": 13000.0,
+            "maximum": 13000.0,
+            "minimum": 13000.0,
+            "note": "exp",
+            "sample_size": 2,
+            "source": "EPI Suite",
+            "standard_deviation": 0.0,
+            "unit": "mg/L"
+        },
+        "WWTair_10000hr": {
+            "average": 53.19,
+            "maximum": 53.19,
+            "minimum": 53.19,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTair_EPAmethod": {
+            "average": 39.41,
+            "maximum": 39.41,
+            "minimum": 39.41,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTbio_10000hr": {
+            "average": 0.05,
+            "maximum": 0.05,
+            "minimum": 0.05,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTbio_EPAmethod": {
+            "average": 26.52,
+            "maximum": 26.52,
+            "minimum": 26.52,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTremoval_10000hr": {
+            "average": 56.91,
+            "maximum": 56.91,
+            "minimum": 56.91,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTremoval_EPAmethod": {
+            "average": 68.97,
+            "maximum": 68.97,
+            "minimum": 68.97,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTslu_10000hr": {
+            "average": 0.96,
+            "maximum": 0.96,
+            "minimum": 0.96,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "WWTslu_EPAmethod": {
+            "average": 0.77,
+            "maximum": 0.77,
+            "minimum": 0.77,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "%"
+        },
+        "algae_ChV": {
+            "average": 19.306,
+            "maximum": 19.306,
+            "minimum": 19.306,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "algae_EC50_96hr": {
+            "average": 84.427,
+            "maximum": 84.427,
+            "minimum": 84.427,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "aquaTox_acute": {
+            "average": "medium",
+            "maximum": "medium",
+            "minimum": "medium",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "bioHC_HL": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "bio_HL": {
+            "average": 0.31,
+            "maximum": 0.31,
+            "minimum": 0.31,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "biodeg_primary": {
+            "average": "Days-Weeks",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "biodeg_ready_all": {
+            "average": "ready biodegradable",
+            "count_negative": 3,
+            "count_not_classified": 0,
+            "count_positive": 3,
+            "note": "medium",
+            "sample_size": 6,
+            "source": "EPI Suite",
+            "unit": "na"
+        },
+        "biodeg_ultimate": {
+            "average": "Weeks-Months",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "biotrans_HL": {
+            "average": 0.237,
+            "maximum": 0.237,
+            "minimum": 0.237,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "days"
+        },
+        "carTox": {
+            "average": "na",
+            "count_negative": 0,
+            "count_not_classified": 0,
+            "count_positive": 0,
+            "note": "na",
+            "sample_size": 0,
+            "source": "VEGA",
+            "unit": "na"
+        },
+        "devTox": {
+            "average": "na",
+            "count_negative": 0,
+            "count_not_classified": 0,
+            "count_positive": 0,
+            "note": "na",
+            "sample_size": 0,
+            "source": "VEGA & TEST",
+            "unit": "na"
+        },
+        "dm_ChV": {
+            "average": 12.001,
+            "maximum": 12.001,
+            "minimum": 12.001,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "dm_LC50_48hr": {
+            "average": 145.79,
+            "maximum": 145.79,
+            "minimum": 145.79,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "earthworm_14day": {
+            "average": 172.849,
+            "maximum": 172.849,
+            "minimum": 172.849,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fishSW_ChV": {
+            "average": 24.829,
+            "maximum": 24.829,
+            "minimum": 24.829,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fishSW_LC50_96hr": {
+            "average": 342.184,
+            "maximum": 342.184,
+            "minimum": 342.184,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fish_ChV": {
+            "average": 24.824,
+            "maximum": 24.824,
+            "minimum": 24.824,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fish_LC50_96hr": {
+            "average": 272.881,
+            "maximum": 272.881,
+            "minimum": 272.881,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fish_LC50_acute": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "na",
+            "sample_size": 2,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "fish_LC50_acute_class": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "na"
+        },
+        "fm_LC50_96hr": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "na",
+            "sample_size": 2,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "kNO3": {
+            "average": "1.66E-17",
+            "maximum": "1.66E-17",
+            "minimum": "1.66E-17",
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "cm3/molecule-sec"
+        },
+        "kO3": {
+            "average": "na",
+            "maximum": "na",
+            "minimum": "na",
+            "note": "medium",
+            "sample_size": 0,
+            "source": "na",
+            "standard_deviation": "na",
+            "unit": "cm3/molecule-sec"
+        },
+        "kOH": {
+            "average": 1.349e-13,
+            "maximum": 1.349e-13,
+            "minimum": 1.349e-13,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "cm3/molecule-sec"
+        },
+        "mutaTox": {
+            "average": "na",
+            "count_negative": 0,
+            "count_not_classified": 0,
+            "count_positive": 0,
+            "note": "na",
+            "source": "VEGA & TEST",
+            "ss": 0,
+            "unit": "na"
+        },
+        "shrimpSW_ChV": {
+            "average": 41.779,
+            "maximum": 41.779,
+            "minimum": 41.779,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "shrimp_LC50_96hr": {
+            "average": 397.543,
+            "maximum": 397.543,
+            "minimum": 397.543,
+            "note": "medium",
+            "sample_size": 1,
+            "source": "EPI Suite",
+            "standard_deviation": "na",
+            "unit": "mg/L"
+        },
+        "skinSensi": {
+            "average": "na",
+            "count_negative": 0,
+            "count_not_classified": 0,
+            "count_positive": 0,
+            "note": "na",
+            "sample_size": 0,
+            "source": "VEGA",
+            "unit": "na"
+        }
+    }
+]

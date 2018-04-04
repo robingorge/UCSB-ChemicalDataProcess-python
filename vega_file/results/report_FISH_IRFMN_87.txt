@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity classification (SarPy/IRFMN) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity class	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 19; Toxicity class 3 alert no. 5	0.859	0.737	1	1	1	-

@@ -1,0 +1,93 @@
+CodeMap
+
+
+
+
+
+parsing.py:
+
+	run: python parsing.py
+
+	modification place: input/output locations
+
+	input:
+		EPI_SUITE_SAMPLE_RESULTS_JSON_FILEPATH = "/Users/lizehao/desktop/general/episuite_file/epibat.json"
+		VEGA_SAMPLE_RESULTS_JSON_FILEPATH = "/Users/lizehao/desktop/general/vega_file/result_test.json"
+		TEST_SAMPLE_RESULTS_JSON_FILEPATH = "/Users/lizehao/desktop/general/test_file/for_testing/temp_result2/
+	output:
+		DEFAULT_JSON_OUTPUT_FILEPATH = "/Users/lizehao/desktop/general/QSAR_summay_sample.json"
+
+
+	It basically will parse the three data through each endpoint's hierachy.
+	Each endpoint has a parse function to track
+	In the end, it will generate a json component inclueding multiple attributes like  min, max, avg, ss(sample size) 
+
+
+EPI part:
+	run: python parse_episuite.py
+
+	modification place: input/output location
+
+	input: "epibat.out"  #line 833
+
+	output: epibat.json   #in epi file
+
+	It is to parse each chemical's information from episuite output.
+	It will read through the output file from epi software, and extract the neccesarry information.
+
+
+
+TEST part:
+	run: python Call_TEST.py
+
+	modification place: input/output/source code location/
+
+	source code location: TEST_JAR_FOLDER_PATH = "/Users/lizehao/desktop/general/test_file/TEST_CMD"   #line 27
+
+	input:
+		in Call_TEST.py
+		TEST_batch_allEndpoints(os.path.join(TEST_JAR_FOLDER_PATH, "TEST.jar"),     
+					os.path.join(CLASS_DIRECTORY, "for_testing", "smiles.txt"),     #smiles place
+					os.path.join(CLASS_DIRECTORY, "for_testing", "temp_result2"))   #temp_result saving place
+
+	output:
+		"test_file/for_testing/temp_result2/test_results.json"
+
+	######notice: in input change the smiles		
+
+
+	Run test, from cmd line.Then ouput all the endpoints into json.
+
+
+VEGA part:
+
+	run: {notice the file location}
+		 java -jar ./vega_file/VEGA_CMD/VEGA-CLI.jar -script ./vega_file/script_allModule_test
+		 python ./vega_file/parse_vega.py
+
+
+	modification place: input/output/source smile/script_allModule_test
+
+	input: general/vega_file/source_test.txt
+
+	output: general/vega_file/result_test.json   [parse_vega.py line 92]
+
+
+	######notice: in script_allModule_test file, it's important to change [line 4, line 38, line 39]
+				  in input change the smiles
+
+
+
+	Run test, from cmd line. THen output all the endpoints into json.
+
+
+
+CONVERT part:
+
+	in each level file, there is a convert.py file to convert the json file to csv file,
+	Basically, it's used to write the endpoint name on the first row and write the values one by one in the continuous lines.
+
+
+
+SWITCH.PY:
+	It's a key function to parse a new smile. go through the switch on part (vage, test, epi)

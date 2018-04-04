@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (MLogP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	6.13 (EXPERIMENTAL value)	5.41	6.13	0.85	1	0.723	0.723	0.723	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	2.15 (low reliability)	2.15	-	0.75	0.855	0.678	1.846	1.019	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	3.07 (low reliability)	3.07	-	0.75	0.889	0.331	1.82	0.639	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	3.53 (low reliability)	3.53	-	0.75	0.884	0.331	1.82	0.639	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	-2.06 (low reliability)	-2.06	-	0.72	0.72	0.677	1.848	1.309	-
+7	Molecule 7	O=C(O[Na])O[Na]	-0.65 (low reliability)	-0.65	-	0.75	0.814	0.11	1.376	0.168	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	1.54 (moderate reliability)	1.54	-	0.85	0.901	0.633	0.732	0.705	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	-1.04 (low reliability)	-1.04	-	0.75	0.802	0.241	1.338	0.313	-
+11	Molecule 11	O=[Ti]=O	-3.19 (low reliability)	-3.19	-	0.75	0.788	1.394	3.621	1.965	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	5.8 (low reliability)	5.8	-	0.75	0.895	0.66	0.895	1.129	-
+13	Molecule 13	O=C1NSc2ccccc12	1.03 (low reliability)	1.03	-	0.75	0.886	0.832	0.216	1.186	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	-1.19 (moderate reliability)	-1.19	-	0.85	0.91	0.329	0.61	0.33	-

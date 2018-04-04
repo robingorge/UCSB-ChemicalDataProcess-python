@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (ISS) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	CC	NON-Mutagenic (low reliability)	NON-Mutagenic	-		0.636	0.793	0.51	0.51	1	-

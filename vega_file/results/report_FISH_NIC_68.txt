@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity model (NIC) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted fish toxicity [log(1/(mmol/L))]	Predicted fish toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [log(1/(mmol/L))]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	13.6 mg/L (moderate reliability)	1.42	13.6	357.21	-	-	0.85	0.75	0.143	0.099	0.148	True	1	-

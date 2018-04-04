@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (SarPy/IRFMN) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	No. alerts for mutagenicity	No. alerts for non-mutagenicity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Mutagenic (EXPERIMENTAL value)	Mutagenic	5	0	Mutagenic	SM48; SM61; SM63; SM80; SM81	1	1	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	NON-Mutagenic (moderate reliability)	NON-Mutagenic	0	3	-	SM122; SM182; SM202	0.816	0.813	1	0.671	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	NON-Mutagenic (moderate reliability)	NON-Mutagenic	0	3	-	SM146; SM170; SM202	0.761	0.866	0.663	0.673	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	NON-Mutagenic (moderate reliability)	NON-Mutagenic	0	3	-	SM146; SM170; SM202	0.849	0.88	0.669	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	Possible NON-Mutagenic (low reliability)	Possible NON-Mutagenic	0	0	-		0.409	0.698	0.667	0.667	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	Possible NON-Mutagenic (low reliability)	Possible NON-Mutagenic	0	0	-		0.362	0.821	1	1	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	NON-Mutagenic (moderate reliability)	NON-Mutagenic	0	1	-	SM176	0.89	0.792	1	1	1	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	Possible NON-Mutagenic (low reliability)	Possible NON-Mutagenic	0	0	-		0.36	0.81	1	1	0.4	-
+11	Molecule 11	O=[Ti]=O	Possible NON-Mutagenic (low reliability)	Possible NON-Mutagenic	0	0	-		0.35	0.767	1	1	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	NON-Mutagenic (good reliability)	NON-Mutagenic	0	4	-	SM157; SM163; SM169; SM182	0.933	0.871	1	1	1	-
+13	Molecule 13	O=C1NSc2ccccc12	Possible NON-Mutagenic (moderate reliability)	Possible NON-Mutagenic	0	0	-		0.824	0.836	1	0.659	1	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	NON-Mutagenic (good reliability)	NON-Mutagenic	0	2	-	SM122; SM202	0.948	0.899	1	1	1	-

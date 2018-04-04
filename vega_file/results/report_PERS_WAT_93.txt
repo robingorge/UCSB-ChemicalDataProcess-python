@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (water) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in water	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	Oc1cccc(c1)CO	nP (good reliability)	nP	3	-	nP (sediment) alert no. 9; nP (sediment) alert no. 22; nP (sediment) alert no. 23; nP (sediment) alert no. 24	0.946	0.894	1	1	1	1	-

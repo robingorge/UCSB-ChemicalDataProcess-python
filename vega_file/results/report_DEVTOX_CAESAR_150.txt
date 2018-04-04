@@ -1,0 +1,16 @@
+Prediction and Applicability Domain analysis for model:
+Developmental Toxicity model (CAESAR) (version 2.1.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted developmental toxicity activity	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(OC(=O)C)C[N+](C)(C)C	NON-Toxicant (low reliability)	NON-Toxicant	-	0.641	0.797	1	0.509	True	0.85	-
+2	Molecule 2	Oc1cccc(c1)CO	Toxicant (low reliability)	Toxicant	-	0	0.865	0.512	0	True	0.85	-
+3	Molecule 3	C(=C(C)C)CCl	NON-Toxicant (low reliability)	NON-Toxicant	-	0	0.631	1	0	True	1	-
+4	Molecule 4	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	NON-Toxicant (low reliability)	NON-Toxicant	-	0.435	0.736	1	0.509	True	0.6	-
+5	Molecule 5	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	NON-Toxicant (good reliability)	NON-Toxicant	-	0.863	0.744	1	1	True	1	-
+6	Molecule 6	C[Sn+3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+7	Molecule 7	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	NON-Toxicant (low reliability)	NON-Toxicant	-	0.642	0.789	1	0.524	True	0.85	-
+8	Molecule 8	O=C(OCC(O)C(O)C(O)C(O)COC(=O)CCS)CCS	NON-Toxicant (low reliability)	NON-Toxicant	-	0.627	0.778	1	0.49	True	0.85	-
+9	Molecule 9	O(CC)C(OCCC(C)CCC=C(C)C)C	NON-Toxicant (low reliability)	NON-Toxicant	-	0	0.732	1	0	True	1	-
+10	Molecule 10	CCCCCCCCCCCCCCCOCCCNC(=O)C(CC(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+]	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+11	Molecule 11	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	Toxicant (low reliability)	Toxicant	-	0.642	0.787	1	0.526	True	0.85	-

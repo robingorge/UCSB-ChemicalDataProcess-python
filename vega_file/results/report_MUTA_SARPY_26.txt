@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (SarPy/IRFMN) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	No. alerts for mutagenicity	No. alerts for non-mutagenicity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	C(Cl)Cl	Mutagenic (EXPERIMENTAL value)	Possible NON-Mutagenic	0	0	Mutagenic		0	1	0	0	0.6	-

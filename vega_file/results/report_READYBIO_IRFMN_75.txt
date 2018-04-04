@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Ready Biodegradability model (IRFMN) (version 1.0.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted RB activity	No. alerts for non RB	No. alerts for possible non RB	No. alerts for RB	No. alerts for possible RB	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	Readily Biodegradable (moderate reliability)	Readily Biodegradable	0	0	1	12	-	RB alert no. 4  (1-propoxynonane); Possible RB alert no. 1  (tridecan-1-ol); Possible RB alert no. 7  (1-ethoxybutane); Possible RB alert no. 8  (octan-1-ol); Possible RB alert no. 9  (tridecane); Possible RB alert no. 10  (propanoic acid); Possible RB alert no. 12  (butan-1-ol); Possible RB alert no. 13  (acetamide); Possible RB alert no. 14  (acetaldehyde); Possible RB alert no. 16  (propan-1-amine); Possible RB alert no. 17  (sulfanone); Possible RB alert no. 18  (heptanes); Possible RB alert no. 20  (butane)	0.683	0.798	1	0.655	0.85	-

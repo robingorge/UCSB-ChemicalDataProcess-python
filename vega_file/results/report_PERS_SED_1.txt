@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (sediment) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in sediment	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	vP (EXPERIMENTAL value)	vP	1	vP	vP (sediment) alert no. 1	1	1	1	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	nP/P (good reliability)	nP/P	4	-	nP (sediment) alert no. 2; nP (sediment) alert no. 4	0.913	0.834	1	1	1	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	nP/P (good reliability)	nP/P	4	-	nP (sediment) alert no. 2; nP (sediment) alert no. 4	0.916	0.839	1	1	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+7	Molecule 7	O=C(O[Na])O[Na]	nP (low reliability)	nP	4	-		0.317	0.777	1	1	0.9	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	nP (low reliability)	nP	0	-	nP (sediment) alert no. 1; nP (sediment) alert no. 3; nP (sediment) alert no. 4	0	0.664	1	0	0.85	0.28	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	nP (low reliability)	nP	2	-		0.317	0.775	1	1	0.9	0.4	-
+11	Molecule 11	O=[Ti]=O	nP (low reliability)	nP	2	-		0.314	0.763	1	1	0.9	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	P/vP (moderate reliability)	P/vP	4	-		0.82	0.83	1	1	0.9	1	-
+13	Molecule 13	O=C1NSc2ccccc12	P/vP (low reliability)	P/vP	4	-	nP (sediment) alert no. 2	0.182	0.788	0.758	0.733	0.7	0.34	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	nP (low reliability)	nP	0	-	nP (sediment) alert no. 4; nP (sediment) alert no. 9	0.479	0.675	0.33	0.671	0.85	1	-

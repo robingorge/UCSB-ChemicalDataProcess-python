@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (water) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in water	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	P/vP (EXPERIMENTAL value)	P/vP	1	P/vP	vP (sediment) alert no. 4	1	1	1	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	nP (low reliability)	nP	3	-	nP (sediment) alert no. 3; nP (sediment) alert no. 8; nP (sediment) alert no. 9; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.597	0.736	0.669	0.669	1	0.85	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	nP (good reliability)	nP	3	-	nP (sediment) alert no. 8; nP (sediment) alert no. 10; nP (sediment) alert no. 15	0.919	0.844	1	1	1	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	nP (good reliability)	nP	3	-	nP (sediment) alert no. 8; nP (sediment) alert no. 10; nP (sediment) alert no. 15	0.921	0.849	1	1	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+7	Molecule 7	O=C(O[Na])O[Na]	nP (low reliability)	nP	3	-	nP (sediment) alert no. 10	0.354	0.783	1	1	1	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	nP (low reliability)	nP	0	-	nP (sediment) alert no. 1; nP (sediment) alert no. 8; nP (sediment) alert no. 10; nP (sediment) alert no. 11; nP (sediment) alert no. 12	0	0.681	0	0.665	0.85	0.34	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	nP (low reliability)	nP	3	-	nP (sediment) alert no. 10	0.35	0.766	1	1	1	0.4	-
+11	Molecule 11	O=[Ti]=O	nP (low reliability)	nP	3	-		0.313	0.754	1	1	0.9	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	nP/P (moderate reliability)	nP/P	3	-		0.821	0.832	1	1	0.9	1	-
+13	Molecule 13	O=C1NSc2ccccc12	nP (low reliability)	nP	3	-	nP (sediment) alert no. 10; nP (sediment) alert no. 12	0.455	0.795	1	1	1	0.51	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	nP (moderate reliability)	nP	0	-	nP (sediment) alert no. 8; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.699	0.677	1	1	0.85	1	-

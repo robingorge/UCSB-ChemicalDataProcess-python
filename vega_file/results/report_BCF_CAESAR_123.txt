@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (CAESAR) (version 2.1.14)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted BCF [log(L/kg)]	Predicted BCF [L/kg]	Predicted BCF from sub-model 1 (HM) [log(L/kg)]	Predicted BCF from sub-model 2 (GA) [log(L/kg)]	Predicted LogP (MLogP)	Experimental [log(L/kg)]	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	cccc	1.48 log(L/kg) (low reliability)	1.48	30	1.44	1.52	2.73	-		0	0.657	0.281	0.757	0.544	False	0.4	-

@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Daphnia Magna LC50 48h (EPA) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mol/l)]	Predicted toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [-log(mol/l)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	0.1016 mg/L (low reliability)	6.39	0.1016	251.75	-	-	0	0.864	0.326	0.544	0.646	False	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	0.0377 mg/L (low reliability)	7.05	0.0377	424.47	-	-	0.645	0.758	1.154	1.475	1.319	True	0.85	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	0.7329 mg/L (low reliability)	5.63	0.7329	313.37	-	-	0.7	0.853	1.644	1.916	1.902	True	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	0.559 mg/L (low reliability)	5.79	0.559	341.23	-	-	0.7	0.871	1.172	1.436	1.902	True	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	1417.86 mg/L (low reliability)	1.1	1417.86	17.9	-	-	0	0.692	1.185	0.311	1.588	False	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	0.2856 mg/L (low reliability)	6.16	0.2856	414.74	-	-	0.225	0.662	0.843	1.66	1.319	True	0.34	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+11	Molecule 11	O=[Ti]=O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	16.11 mg/L (moderate reliability)	4.11	16.11	207.07	-	-	0.85	0.823	0.681	0.264	0.925	True	1	-
+13	Molecule 13	O=C1NSc2ccccc12	1.27 mg/L (low reliability)	5.07	1.27	150.98	-	-	0.326	0.815	1.439	1.434	2.696	True	0.4	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	417.2 mg/L (low reliability)	2.75	417.2	237.1	-	-	0.7	0.868	1.686	1.73	1.811	True	1	-

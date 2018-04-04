@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (ISS) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Carcinogen activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(C)C	NON-Carcinogen (moderate reliability)	NON-Carcinogen	-		0.65	0.836	0.505	0.505	1	-

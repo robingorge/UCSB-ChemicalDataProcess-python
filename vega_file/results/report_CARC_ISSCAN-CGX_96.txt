@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (IRFMN/ISSCAN-CGX) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	No. alerts for carcinogenicity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	cc	Possible NON-Carcinogen (low reliability)	Possible NON-Carcinogen	0	-		0.294	0.639	0.376	0.376	0.6	-

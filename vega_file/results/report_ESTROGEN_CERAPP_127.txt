@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Estrogen Receptor-mediated effect (IRFMN/CERAPP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted ER-mediated effect	No. alerts for activity	No. alerts for possible activity	No. alerts for non-activity	No. alerts for possible non-activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=S(=O)(NCCN)c2cccc1cnccc12	NON-active (good reliability)	NON-active	0	0	2	0	-	ER non-activity alert no. 3; ER non-activity alert no. 21	0.901	0.811	1	1	1	-

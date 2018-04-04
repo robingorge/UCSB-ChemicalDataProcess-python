@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Developmental Toxicity model (CAESAR) (version 2.1.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted developmental toxicity activity	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	Toxicant (low reliability)	Toxicant	-	0.642	0.787	1	0.526	True	0.85	-

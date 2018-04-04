@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (CAESAR) (version 2.1.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Carcinogen activity	P(Carcinogen)	P(NON-Carcinogen)	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Pos/Non-Pos difference	Neurons concordance	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Carcinogen (EXPERIMENTAL value)	Carcinogen	0.906	0.094	Carcinogen	1	1	1	1	True	1	0.812	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Carcinogen (good reliability)	Carcinogen	0.765	0.235	-	0.89	0.793	1	1	True	1	0.53	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	NON-Carcinogen (low reliability)	NON-Carcinogen	0.33	0.67	-	0.326	0.851	0.514	0.486	True	1	0.34	0.5	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	NON-Carcinogen (low reliability)	NON-Carcinogen	0.255	0.745	-	0.326	0.85	0.525	0.475	True	1	0.489	0.5	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+7	Molecule 7	O=C(O[Na])O[Na]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	Carcinogen (low reliability)	Carcinogen	0.531	0.469	-	0	0.738	1	0	True	0.7	0.062	0.75	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+11	Molecule 11	O=[Ti]=O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	NON-Carcinogen (low reliability)	NON-Carcinogen	0.42	0.58	-	0	0.743	0	0.502	True	1	0.161	1	-
+13	Molecule 13	O=C1NSc2ccccc12	NON-Carcinogen (low reliability)	NON-Carcinogen	0.028	0.972	-	0.405	0.86	0.529	0.529	True	0.6	0.943	1	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	Carcinogen (moderate reliability)	Carcinogen	0.699	0.301	-	0.625	0.84	0.466	0.466	True	1	0.397	1	-

@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Daphnia Magna LC50 48h (DEMETRA) (version 1.0.4)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mol/l)]	Predicted toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [-log(mol/l)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	0.806 mg/L (low reliability)	5.65	0.806	357.21	-	-	0.61	0.717	1.636	3.79	1.88	True	0.85	-

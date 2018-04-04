@@ -1,0 +1,28 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (water) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in water	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	c1ccccc1	nP (EXPERIMENTAL value)	nP	1	nP		0.9	1	0	1	0.9	1	-
+2	Molecule 2	CC	nP/P (moderate reliability)	nP/P	3	-		0.776	0.744	1	1	0.9	1	-
+3	Molecule 3	KO	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string KO. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string KO.
+4	Molecule 4	c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1.
+5	Molecule 5	O=C(O[Na])c3nn(c1ccc(cc1)S(=O)(=O)O[Na])c(O[Na])c3(N=Nc2ccc(cc2)S(=O)(=O)O[Na])	nP (low reliability)	nP	3	-	nP (sediment) alert no. 2; nP (sediment) alert no. 10	0	0.729	0	0.661	1	0.34	-
+6	Molecule 6	O=C(O[Na])O[Na]	nP (low reliability)	nP	3	-	nP (sediment) alert no. 10	0.354	0.783	1	1	1	0.4	-
+7	Molecule 7	N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O)	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O). [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O).
+8	Molecule 8	O=C(O[Na])O[Na]	nP (low reliability)	nP	3	-	nP (sediment) alert no. 10	0.354	0.783	1	1	1	0.4	-
+9	Molecule 9	O=C(O[Na])C(=C)C	nP (low reliability)	nP	3	-	nP (sediment) alert no. 1; nP (sediment) alert no. 8; nP (sediment) alert no. 10; nP (sediment) alert no. 11	0.371	0.859	1	1	1	0.4	-
+10	Molecule 10	OCC(O)CO	nP (good reliability)	nP	3	-	nP (sediment) alert no. 8; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.907	0.823	1	1	1	1	-
+11	Molecule 11	O=C(N)N	nP (good reliability)	nP	3	-	nP (sediment) alert no. 10; nP (sediment) alert no. 12	0.878	0.77	1	1	1	1	-
+12	Molecule 12	O=C(O)CC(O)(C(=O)O)CC(=O)O	nP (moderate reliability)	nP	0	-	nP (sediment) alert no. 1; nP (sediment) alert no. 8; nP (sediment) alert no. 10; nP (sediment) alert no. 22	0.705	0.689	1	1	0.85	1	-
+13	Molecule 13	O=P(O)(O)CN(CP(=O)(O)O)CP(=O)(O)O	nP (low reliability)	nP	0	-	nP (sediment) alert no. 12; nP (sediment) alert no. 22	0.24	0.617	0.653	1	0.85	0.4	-
+14	Molecule 14	C(=O)(O)C=C[Na+][O-]S(=O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "12801-1". [Model] Unable to calculate model, input molecule is not valid. For input string: "12801-1".
+15	Molecule 15	OCCOCCOCCOCCOCCCCCCCCCC	nP (low reliability)	nP	0	-	nP (sediment) alert no. 8; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.646	0.7	0.682	1	0.85	1	-
+16	Molecule 16	O=[Si](O[Na])O[Na]	nP (low reliability)	nP	3	-		0.303	0.709	1	1	0.9	0.4	-
+17	Molecule 17	O(CC)CCCCCCCCCCCC	nP (moderate reliability)	nP	3	-	nP (sediment) alert no. 8	0.802	0.78	1	0.68	1	1	-
+18	Molecule 18	O(CC)CCCCCCCCCCCC	nP (moderate reliability)	nP	3	-	nP (sediment) alert no. 8	0.802	0.78	1	0.68	1	1	-
+19	Molecule 19	[Na]CL	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string [Na]CL. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string [Na]CL.
+20	Molecule 20	O=S(=O)(O[Na])O[Na]	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+21	Molecule 21	O=P(O[Na])(O[Na])OP(=O)(O[Na])OP(=O)(O[Na])O[Na]	N/A	Non Predicted	0	-		-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+22	Molecule 22	OCCOCCOCCOCCOCCOCC(OCC(OCC(OCC(OCC(O)C)C)C)C)C	nP (low reliability)	nP	0	-	nP (sediment) alert no. 8; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.602	0.616	0.661	1	0.85	1	-
+23	Molecule 23	OCC3OC(OC1C(O)C(O)C(OC1(CO))OC2C(O)C(O)C(O)OC2(CO))C(O)C(O)C3(O)	nP (low reliability)	nP	0	-	nP (sediment) alert no. 8; nP (sediment) alert no. 22; nP (sediment) alert no. 24	0.389	0.583	1	1	0.85	0.6	-

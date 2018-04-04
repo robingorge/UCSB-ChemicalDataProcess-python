@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Skin Sensitization model (CAESAR) (version 2.1.6)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted skin sensitization activity	O(Active)	O(Inactive)	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Sensitizer (EXPERIMENTAL value)	Sensitizer	1	0	Sensitizer	1	1	1	1	True	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Sensitizer (moderate reliability)	Sensitizer	1	0	-	0.639	0.79	1	0.512	True	0.85	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	Sensitizer (moderate reliability)	Sensitizer	1	0	-	0.771	0.838	1	0.502	True	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	Sensitizer (moderate reliability)	Sensitizer	1	0	-	0.759	0.815	1	0.5	True	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+7	Molecule 7	O=C(O[Na])O[Na]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	Sensitizer (low reliability)	Sensitizer	0.91	0.09	-	0.238	0.72	1	1	True	0.28	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+11	Molecule 11	O=[Ti]=O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Model] Unable to calculate some molecular descriptors, model can not be executed.
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	Sensitizer (good reliability)	Sensitizer	1	0	-	0.872	0.76	1	1	True	1	-
+13	Molecule 13	O=C1NSc2ccccc12	Sensitizer (EXPERIMENTAL value)	Sensitizer	0.8	0.2	Sensitizer	0.85	1	1	1	True	0.85	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	Sensitizer (good reliability)	Sensitizer	0.88	0.12	-	0.841	0.707	1	1	True	1	-

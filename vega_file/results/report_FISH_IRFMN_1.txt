@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity classification (SarPy/IRFMN) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity class	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 14; Toxicity class 2 alert no. 16; Toxicity class 3 alert no. 24	0.87	0.757	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Toxic-3 (between 10 and 100 mg/l) (moderate reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 8; Toxicity class 3 alert no. 11; Toxicity class 3 alert no. 24	0.766	0.722	1	0.661	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 1; Toxicity class 3 alert no. 24	0.628	0.837	0.668	0.332	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 1; Toxicity class 3 alert no. 24	0	0.858	1	0	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.487	0.658	1	1	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.35	0.765	1	1	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	Toxic-2 (between 1 and 10 mg/l) (low reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 22; Toxicity class 3 alert no. 23	0.158	0.668	0.668	0.343	0.28	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.35	0.765	1	1	0.4	-
+11	Molecule 11	O=[Ti]=O	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.341	0.728	1	1	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	Toxic-2 (between 1 and 10 mg/l) (moderate reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 2; Toxicity class 3 alert no. 14	0.707	0.8	0.624	0.624	1	-
+13	Molecule 13	O=C1NSc2ccccc12	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 24	0.47	0.849	1	1	0.51	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.916	0.838	1	1	1	-

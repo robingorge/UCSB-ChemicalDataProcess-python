@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (MLogP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	CCCCC(CC)C(=O)O.CCCCC(=O)O.C(CO)C(CCO)CO	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.

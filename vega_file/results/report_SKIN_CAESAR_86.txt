@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Skin Sensitization model (CAESAR) (version 2.1.6)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted skin sensitization activity	O(Active)	O(Inactive)	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	Sensitizer (moderate reliability)	Sensitizer	0.57	0.43	-	0.714	0.706	1	1	True	0.85	-

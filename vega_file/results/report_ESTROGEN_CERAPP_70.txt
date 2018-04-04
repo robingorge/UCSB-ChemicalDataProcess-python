@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Estrogen Receptor-mediated effect (IRFMN/CERAPP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted ER-mediated effect	No. alerts for activity	No. alerts for possible activity	No. alerts for non-activity	No. alerts for possible non-activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	C[Sn 3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.

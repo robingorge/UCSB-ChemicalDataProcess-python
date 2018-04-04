@@ -1,0 +1,28 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (MLogP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	c1ccccc1	2.13 (EXPERIMENTAL value)	2.25	2.13	1	1	0.125	0.125	0.125	-
+2	Molecule 2	CC	1.81 (EXPERIMENTAL value)	1.76	1.81	1	1	0.053	0.053	0.053	-
+3	Molecule 3	KO	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string KO. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string KO.
+4	Molecule 4	c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1.
+5	Molecule 5	O=C(O[Na])c3nn(c1ccc(cc1)S(=O)(=O)O[Na])c(O[Na])c3(N=Nc2ccc(cc2)S(=O)(=O)O[Na])	0.06 (low reliability)	0.06	-	0.75	0.769	0.432	3.279	0.576	-
+6	Molecule 6	O=C(O[Na])O[Na]	-0.65 (low reliability)	-0.65	-	0.75	0.814	0.11	1.376	0.168	-
+7	Molecule 7	N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O)	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O). [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O).
+8	Molecule 8	O=C(O[Na])O[Na]	-0.65 (low reliability)	-0.65	-	0.75	0.814	0.11	1.376	0.168	-
+9	Molecule 9	O=C(O[Na])C(=C)C	0.48 (moderate reliability)	0.48	-	0.85	0.922	0.472	0.676	0.492	-
+10	Molecule 10	OCC(O)CO	-1.76 (EXPERIMENTAL value)	-1.37	-1.76	1	1	0.39	0.39	0.39	-
+11	Molecule 11	O=C(N)N	-2.11 (EXPERIMENTAL value)	-1.46	-2.11	0.85	1	0.652	0.652	0.652	-
+12	Molecule 12	O=C(O)CC(O)(C(=O)O)CC(=O)O	-1.64 (EXPERIMENTAL value)	-1.17	-1.64	1	1	0.471	0.471	0.471	-
+13	Molecule 13	O=P(O)(O)CN(CP(=O)(O)O)CP(=O)(O)O	-3.41 (low reliability)	-3.41	-	0.728	0.728	1.174	1.85	2.04	-
+14	Molecule 14	C(=O)(O)C=C[Na+][O-]S(=O)O	[ERROR]	-	-	-	-	-	-	-	[Molecule error] For input string: "12801-1". [Model] Unable to calculate model, input molecule is not valid. For input string: "12801-1".
+15	Molecule 15	OCCOCCOCCOCCOCCCCCCCCCC	2.59 (moderate reliability)	2.59	-	0.85	0.839	0.346	0.779	0.522	-
+16	Molecule 16	O=[Si](O[Na])O[Na]	-3.92 (low reliability)	-3.92	-	0.75	0.807	3.815	9.02	4.222	-
+17	Molecule 17	O(CC)CCCCCCCCCCCC	4.91 (low reliability)	4.91	-	0.75	0.907	0.88	0.506	1.009	-
+18	Molecule 18	O(CC)CCCCCCCCCCCC	4.91 (low reliability)	4.91	-	0.75	0.907	0.88	0.506	1.009	-
+19	Molecule 19	[Na]CL	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string [Na]CL. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string [Na]CL.
+20	Molecule 20	O=S(=O)(O[Na])O[Na]	-2.4 (low reliability)	-2.4	-	0.75	0.782	1.129	1.969	1.749	-
+21	Molecule 21	O=P(O[Na])(O[Na])OP(=O)(O[Na])OP(=O)(O[Na])O[Na]	-2.16 (low reliability)	-2.16	-	0.73	0.73	5.644	8.306	8.443	-
+22	Molecule 22	OCCOCCOCCOCCOCCOCC(OCC(OCC(OCC(OCC(O)C)C)C)C)C	-1.26 (low reliability)	-1.26	-	0.75	0.768	1.922	2.441	2.527	-
+23	Molecule 23	OCC3OC(OC1C(O)C(O)C(OC1(CO))OC2C(O)C(O)C(O)OC2(CO))C(O)C(O)C3(O)	-5.5 (low reliability)	-5.5	-	0.75	0.859	0.562	2.955	0.925	-

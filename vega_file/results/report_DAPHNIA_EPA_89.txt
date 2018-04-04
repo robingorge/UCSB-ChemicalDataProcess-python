@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Daphnia Magna LC50 48h (EPA) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mol/l)]	Predicted toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [-log(mol/l)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	3077.66 mg/L (low reliability)	1.94	3077.66	269.29	-	-	0	0.726	0.728	4.573	0.838	False	0.85	-

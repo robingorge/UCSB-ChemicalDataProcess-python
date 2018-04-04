@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity model (KNN/Read-Across) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mg/L)]	Predicted toxicity [mg/L]	Molecules used for prediction	Experimental value [mg/l]	Experimental [-log(mg/L)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	ACF index	Remarks
+1	Molecule 1	CC	N/A	-	-	0	-	-	-	-	-	-	-	-	[Model] Unable to perform Applicability Domain check.

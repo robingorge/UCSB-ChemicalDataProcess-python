@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (KNN/Read-Across) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	Molecules used for prediction	Experimental	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Mutagen (good reliability)	Mutagen	4	-	0.994	0.988	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	NON-Mutagen (moderate reliability)	NON-Mutagen	4	-	0.708	0.826	0.493	0.747	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	Mutagen (moderate reliability)	Mutagen	4	-	0.66	0.874	0.497	0.5	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	NON-Mutagen (moderate reliability)	NON-Mutagen	4	-	0.812	0.877	0.751	0.753	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	NON-Mutagen (low reliability)	NON-Mutagen	2	-	0.432	0.72	1	0.521	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	NON-Mutagen (low reliability)	NON-Mutagen	4	-	0.256	0.809	0.505	0.505	0.4	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	NON-Mutagen (moderate reliability)	NON-Mutagen	4	-	0.767	0.794	0.742	0.742	1	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	NON-Mutagen (low reliability)	NON-Mutagen	4	-	0.282	0.809	0.756	0.502	0.4	-
+11	Molecule 11	O=[Ti]=O	NON-Mutagen (low reliability)	NON-Mutagen	4	-	0.295	0.767	0.502	1	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	NON-Mutagen (good reliability)	NON-Mutagen	4	-	0.929	0.863	1	1	1	-
+13	Molecule 13	O=C1NSc2ccccc12	NON-Mutagen (moderate reliability)	NON-Mutagen	4	-	0.744	0.88	0.52	0.76	1	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	NON-Mutagen (moderate reliability)	NON-Mutagen	4	-	0.675	0.901	0.506	0.506	1	-

@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (sediment) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in sediment	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	nP (low reliability)	nP	0	-	nP (sediment) alert no. 1; nP (sediment) alert no. 4; nP (sediment) alert no. 5; nP (sediment) alert no. 9	0.484	0.664	0.605	0.395	0.85	1	-

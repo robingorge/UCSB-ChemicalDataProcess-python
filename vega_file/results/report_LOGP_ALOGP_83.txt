@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (ALogP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	CC(=O)OC(CC(=O)O)C[N ](C)(C)C	[ERROR]	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string CC(=O)OC(CC(=O)O)C[N ](C)(C)C. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string CC(=O)OC(CC(=O)O)C[N ](C)(C)C.

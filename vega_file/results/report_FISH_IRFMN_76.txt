@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity classification (SarPy/IRFMN) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity class	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	Oc1c2ncccc2(ccc1CC(CC)CCCC)	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 8; Toxicity class 3 alert no. 24	0	0.787	0.658	0	1	-

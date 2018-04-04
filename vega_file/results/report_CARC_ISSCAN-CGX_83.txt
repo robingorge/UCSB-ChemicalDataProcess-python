@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (IRFMN/ISSCAN-CGX) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	No. alerts for carcinogenicity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	CC(=O)OC(CC(=O)O)C[N ](C)(C)C	[ERROR]	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string CC(=O)OC(CC(=O)O)C[N ](C)(C)C. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string CC(=O)OC(CC(=O)O)C[N ](C)(C)C.

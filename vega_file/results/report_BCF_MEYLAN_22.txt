@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (Meylan) (version 1.0.3)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted BCF [log(L/kg)]	Predicted BCF [L/kg]	Predicted LogP (Meylan/Kowwin)	Predicted LogP reliability	MW	Ionic compound	Experimental [log(L/kg)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	LogP reliability	Descriptors range check	ACF index	Remarks
+1	Molecule 1	C(Cl)Cl	1.36  log(L/kg) (EXPERIMENTAL value)	0.49	3	1.25	Experimental	84.8	no	1.36	0.85	1	0.868	0.868	0.868	1	True	0.85	-

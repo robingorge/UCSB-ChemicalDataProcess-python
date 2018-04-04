@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (MLogP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	C1CCC1	2.34 (moderate reliability)	2.34	-	0.85	0.944	0.209	0.64	0.254	-

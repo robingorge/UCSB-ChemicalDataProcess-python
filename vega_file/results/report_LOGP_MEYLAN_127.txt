@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+LogP model (Meylan/Kowwin) (version 1.1.4)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted LogP	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Remarks
+1	Molecule 1	O=S(=O)(NCCN)c2cccc1cnccc12	-0.16 (moderate reliability)	-0.16	-	0.85	0.896	0.132	0.646	0.202	-

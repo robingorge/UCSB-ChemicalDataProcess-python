@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Developmental Toxicity model (CAESAR) (version 2.1.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted developmental toxicity activity	Experimental	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	dsf	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string dsf. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string dsf.

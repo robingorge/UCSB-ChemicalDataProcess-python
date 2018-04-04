@@ -1,0 +1,8 @@
+test script
+
+input:  /for_testing/smile.txt
+output: /for_testing/temp_result2/test_results.json
+
+
+run:
+python Call_TEST.py

@@ -1,0 +1,16 @@
+Prediction and Applicability Domain analysis for model:
+Estrogen Receptor-mediated effect (IRFMN/CERAPP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted ER-mediated effect	No. alerts for activity	No. alerts for possible activity	No. alerts for non-activity	No. alerts for possible non-activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(OC(=O)C)C[N+](C)(C)C	NON-active (good reliability)	NON-active	0	0	1	3	-	ER non-activity alert no. 29; ER possible non-activity alert no. 1; ER possible non-activity alert no. 2; ER possible non-activity alert no. 9	0.895	0.802	1	1	1	-
+2	Molecule 2	Oc1cccc(c1)CO	Not predicted (low reliability)	Not predicted	0	0	0	0	-		0	0.898	0.334	0	1	-
+3	Molecule 3	C(=C(C)C)CCl	Not predicted (low reliability)	Not predicted	0	0	0	0	-		0	0.752	0.355	0	1	-
+4	Molecule 4	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	NON-active (good reliability)	NON-active	0	0	1	4	-	ER non-activity alert no. 29; ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.877	0.769	1	1	1	-
+5	Molecule 5	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	NON-active (good reliability)	NON-active	0	0	1	4	-	ER non-activity alert no. 29; ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.884	0.782	1	1	1	-
+6	Molecule 6	C[Sn+3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+7	Molecule 7	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	NON-active (good reliability)	NON-active	0	0	1	4	-	ER non-activity alert no. 29; ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.905	0.819	1	1	1	-
+8	Molecule 8	O=C(OCC(O)C(O)C(O)C(O)COC(=O)CCS)CCS	NON-active (good reliability)	NON-active	0	0	1	4	-	ER non-activity alert no. 29; ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.902	0.813	1	1	1	-
+9	Molecule 9	O(CC)C(OCCC(C)CCC=C(C)C)C	Possible NON-active (good reliability)	Possible NON-active	0	0	0	1	-	ER possible non-activity alert no. 1	0.917	0.841	1	1	1	-
+10	Molecule 10	CCCCCCCCCCCCCCCOCCCNC(=O)C(CC(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+11	Molecule 11	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	NON-active (good reliability)	NON-active	0	0	1	4	-	ER non-activity alert no. 5; ER possible non-activity alert no. 1; ER possible non-activity alert no. 2; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.9	0.811	1	1	1	-

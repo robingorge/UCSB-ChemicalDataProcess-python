@@ -1,0 +1,28 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity classification (SarPy/IRFMN) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity class	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccccc1	Toxic-3 (between 10 and 100 mg/l) (EXPERIMENTAL value)	Toxic-3 (between 10 and 100 mg/l)	Toxic-3 (between 10 and 100 mg/l)	Toxicity class 3 alert no. 24	1	1	1	1	1	-
+2	Molecule 2	CC	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.844	0.712	1	1	1	-
+3	Molecule 3	KO	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string KO. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string KO.
+4	Molecule 4	c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string c46c9nc(c4cccc6S(=O)(=O)O)N=c5nc(c7c5cccc7S(=O)(=O)O)N=C1c8c(cccc8)C( =NC2=NC(=N9)c3ccccc23)N1.
+5	Molecule 5	O=C(O[Na])c3nn(c1ccc(cc1)S(=O)(=O)O[Na])c(O[Na])c3(N=Nc2ccc(cc2)S(=O)(=O)O[Na])	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 24	0.163	0.704	0.328	0.328	0.34	-
+6	Molecule 6	O=C(O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.35	0.765	1	1	0.4	-
+7	Molecule 7	N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O)	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O). [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string N1([Na])C(=O)N(CL)C(=O)N(CL)C1(=O).
+8	Molecule 8	O=C(O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.35	0.765	1	1	0.4	-
+9	Molecule 9	O=C(O[Na])C(=C)C	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 23	0.305	0.876	0.663	0.663	0.4	-
+10	Molecule 10	OCC(O)CO	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.911	0.831	1	1	1	-
+11	Molecule 11	O=C(N)N	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.867	0.752	1	1	1	-
+12	Molecule 12	O=C(O)CC(O)(C(=O)O)CC(=O)O	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.842	0.709	1	1	1	-
+13	Molecule 13	O=P(O)(O)CN(CP(=O)(O)O)CP(=O)(O)O	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.269	0.628	1	1	0.34	-
+14	Molecule 14	C(=O)(O)C=C[Na+][O-]S(=O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] For input string: "12801-1". [Model] Unable to calculate model, input molecule is not valid. For input string: "12801-1".
+15	Molecule 15	OCCOCCOCCOCCOCCCCCCCCCC	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 21; Toxicity class 3 alert no. 14	0.902	0.813	1	1	1	-
+16	Molecule 16	O=[Si](O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.338	0.713	1	1	0.4	-
+17	Molecule 17	O(CC)CCCCCCCCCCCC	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 2; Toxicity class 2 alert no. 21; Toxicity class 3 alert no. 14	0.933	0.871	1	1	1	-
+18	Molecule 18	O(CC)CCCCCCCCCCCC	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 2; Toxicity class 2 alert no. 21; Toxicity class 3 alert no. 14	0.933	0.871	1	1	1	-
+19	Molecule 19	[Na]CL	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: unable to parse SMILES string [Na]CL. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: unable to parse SMILES string [Na]CL.
+20	Molecule 20	O=S(=O)(O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.33	0.682	1	1	0.4	-
+21	Molecule 21	O=P(O[Na])(O[Na])OP(=O)(O[Na])OP(=O)(O[Na])O[Na]	NON-Toxic (more than 100 mg/l) (low reliability)	NON-Toxic (more than 100 mg/l)	-		0.273	0.673	0.69	0.69	0.4	-
+22	Molecule 22	OCCOCCOCCOCCOCCOCC(OCC(OCC(OCC(OCC(O)C)C)C)C)C	NON-Toxic (more than 100 mg/l) (good reliability)	NON-Toxic (more than 100 mg/l)	-		0.819	0.671	1	1	1	-
+23	Molecule 23	OCC3OC(OC1C(O)C(O)C(OC1(CO))OC2C(O)C(O)C(O)OC2(CO))C(O)C(O)C3(O)	NON-Toxic (more than 100 mg/l) (moderate reliability)	NON-Toxic (more than 100 mg/l)	-		0.666	0.615	1	1	0.85	-

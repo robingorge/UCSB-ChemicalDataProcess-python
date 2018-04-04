@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Fathead Minnow LC50 96h (EPA) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mol/l)]	Predicted toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [-log(mol/l)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	CC	331.4 mg/L (low reliability)	1.95	331.4	29.79	-	-	0	0.717	0.936	2.01	0.957	False	1	-

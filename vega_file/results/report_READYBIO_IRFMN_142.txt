@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Ready Biodegradability model (IRFMN) (version 1.0.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted RB activity	No. alerts for non RB	No. alerts for possible non RB	No. alerts for RB	No. alerts for possible RB	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	CCC(C)C1CCCCC1(C)	NON Readily Biodegradable (moderate reliability)	NON Readily Biodegradable	1	0	0	2	-	Non RB alert no. 18  (2-methylnonane); Possible RB alert no. 18  (heptanes); Possible RB alert no. 20  (butane)	0.664	0.924	0.351	0.649	1	-

@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Carcinogenicity model (IRFMN/Antares) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	No. alerts for carcinogenicity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	C1CCC1	Possible NON-Carcinogen (moderate reliability)	Possible NON-Carcinogen	0	-		0.696	0.743	0.652	0.652	1	-

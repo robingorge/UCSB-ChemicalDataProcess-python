@@ -1,0 +1,16 @@
+Prediction and Applicability Domain analysis for model:
+Fathead Minnow LC50 96h (EPA) (version 1.0.7)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity [-log(mol/l)]	Predicted toxicity [mg/l]	Molecular Weight	Experimental value [mg/l]	Experimental [-log(mol/l)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(OC(=O)C)C[N+](C)(C)C	2075.39 mg/L (low reliability)	1.99	2075.39	203.35	-	-	0.486	0.81	0.071	1.584	0.084	True	0.6	-
+2	Molecule 2	Oc1cccc(c1)CO	221.79 mg/L (moderate reliability)	2.75	221.79	123.71	-	-	0.85	0.897	0.195	0.729	0.353	True	1	-
+3	Molecule 3	C(=C(C)C)CCl	27.51 mg/L (low reliability)	3.58	27.51	104.14	-	-	0.7	0.846	1.261	1.14	2.152	True	1	-
+4	Molecule 4	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	356.55 mg/L (moderate reliability)	3	356.55	357.21	-	-	0.85	0.755	0.168	0.96	0.331	True	1	-
+5	Molecule 5	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	1059.13 mg/L (moderate reliability)	2.49	1059.13	325.14	-	-	0.85	0.767	0.168	0.973	0.331	True	1	-
+6	Molecule 6	C[Sn+3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+7	Molecule 7	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	938.22 mg/L (low reliability)	2.46	938.22	269.29	-	-	0.681	0.801	0.343	0.757	0.355	True	0.85	-
+8	Molecule 8	O=C(OCC(O)C(O)C(O)C(O)COC(=O)CCS)CCS	168.68 mg/L (low reliability)	3.33	168.68	357.21	-	-	0.666	0.783	0.349	1.175	0.367	True	0.85	-
+9	Molecule 9	O(CC)C(OCCC(C)CCC=C(C)C)C	3.92 mg/L (low reliability)	4.76	3.92	227.01	-	-	0.658	0.774	0.67	0.377	0.939	True	0.85	-
+10	Molecule 10	CCCCCCCCCCCCCCCOCCCNC(=O)C(CC(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+11	Molecule 11	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	0.0792 mg/L (low reliability)	6.77	0.0792	463.5	-	-	0.602	0.708	0.191	2.002	0.225	True	0.85	-

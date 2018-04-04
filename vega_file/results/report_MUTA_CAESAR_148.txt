@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Mutagenicity (Ames test) model (CAESAR) (version 2.1.13)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted Mutagen activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Descriptors range check	ACF index	Remarks
+1	Molecule 1	C(Cl)Cl	Mutagenic (EXPERIMENTAL value)	Mutagenic	Mutagenic	SA8 Aliphatic halogens	0.6	1	1	1	True	0.6	-

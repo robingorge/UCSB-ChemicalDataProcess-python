@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Ready Biodegradability model (IRFMN) (version 1.0.9)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted RB activity	No. alerts for non RB	No. alerts for possible non RB	No. alerts for RB	No. alerts for possible RB	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	Possible NON Readily Biodegradable (low reliability)	Possible NON Readily Biodegradable	0	1	0	0	-	Possible non RB alert no. 3  (naphthalene)	0.624	0.804	0.342	0.687	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Possible Readily Biodegradable (moderate reliability)	Possible Readily Biodegradable	0	0	0	3	-	Possible RB alert no. 15  (ethane-1,2-diol); Possible RB alert no. 19  (anisole); Possible RB alert no. 20  (butane)	0.651	0.745	1	0.323	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	Possible Readily Biodegradable (good reliability)	Possible Readily Biodegradable	0	0	0	2	-	Possible RB alert no. 11  (benzoic acid); Possible RB alert no. 15  (ethane-1,2-diol)	0.918	0.843	1	1	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	Possible Readily Biodegradable (good reliability)	Possible Readily Biodegradable	0	0	0	2	-	Possible RB alert no. 11  (benzoic acid); Possible RB alert no. 15  (ethane-1,2-diol)	0.922	0.85	1	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	Not classifiable	Not classifiable	0	0	0	0	-		-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+7	Molecule 7	O=C(O[Na])O[Na]	Not classifiable	Not classifiable	0	0	0	0	-		-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	Readily Biodegradable (low reliability)	Readily Biodegradable	0	0	1	3	-	RB alert no. 3  (N-(2-hydroxyethyl)formamide); Possible RB alert no. 13  (acetamide); Possible RB alert no. 14  (acetaldehyde); Possible RB alert no. 16  (propan-1-amine)	0	0.666	1	0	0.34	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	Not classifiable	Not classifiable	0	0	0	0	-		-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+11	Molecule 11	O=[Ti]=O	Not classifiable	Not classifiable	0	0	0	0	-		-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	NON Readily Biodegradable (low reliability)	NON Readily Biodegradable	1	0	0	3	-	Non RB alert no. 18  (2-methylnonane); Possible RB alert no. 9  (tridecane); Possible RB alert no. 18  (heptanes); Possible RB alert no. 20  (butane)	0.645	0.877	0.658	0.342	1	-
+13	Molecule 13	O=C1NSc2ccccc12	Not classifiable	Not classifiable	0	0	0	0	-		-	-	-	-	-	[Model] Unable to perform Applicability Domain check.
+14	Molecule 14	OCCOCCOCCOCCOCCO	Possible Readily Biodegradable (moderate reliability)	Possible Readily Biodegradable	0	0	0	1	-	Possible RB alert no. 15  (ethane-1,2-diol)	0.728	0.848	0.625	0.625	1	-

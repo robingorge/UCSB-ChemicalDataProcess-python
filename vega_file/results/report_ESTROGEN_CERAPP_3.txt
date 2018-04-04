@@ -1,0 +1,19 @@
+Prediction and Applicability Domain analysis for model:
+Estrogen Receptor-mediated effect (IRFMN/CERAPP) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted ER-mediated effect	No. alerts for activity	No. alerts for possible activity	No. alerts for non-activity	No. alerts for possible non-activity	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45	NON-active (good reliability)	NON-active	0	0	1	0	-	ER non-activity alert no. 27	0.973	0.947	1	1	1	-
+2	Molecule 2	OCCOCCOCCOCCOCCOc1ccc(cc1)C(C)(C)CC(C)(C)C	Possible active (good reliability)	Possible active	0	2	0	2	-	ER possible activity alert no. 1; ER possible activity alert no. 6; ER possible non-activity alert no. 1; ER possible non-activity alert no. 3	0.902	0.814	1	1	1	-
+3	Molecule 3	O=C(OCCOCCOC(=O)c1ccccc1)c2ccccc2	NON-active (EXPERIMENTAL value)	Possible NON-active	0	0	0	3	NON-active	ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 9	1	1	1	1	1	-
+4	Molecule 4	O=C(OCC(OC(C)COC(=O)c1ccccc1)C)c2ccccc2	Possible NON-active (good reliability)	Possible NON-active	0	0	0	3	-	ER possible non-activity alert no. 1; ER possible non-activity alert no. 3; ER possible non-activity alert no. 9	0.975	0.95	1	1	1	-
+5	Molecule 5	n1(=O)c([S-])cccc1.[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+6	Molecule 6	O	Not predicted (low reliability)	Not predicted	0	0	0	0	-		0	0.611	0.671	0	0.6	-
+7	Molecule 7	O=C(O[Na])O[Na]	Possible NON-active (low reliability)	Possible NON-active	0	0	0	1	-	ER possible non-activity alert no. 9	0.23	0.793	0.334	1	0.34	-
+8	Molecule 8	O=C([O-])C4=C(C[n+]1ccccc1)CSC3N4(C(=O)C3(NC(=O)Cc2cccs2))	NON-active (low reliability)	NON-active	0	0	3	2	-	ER non-activity alert no. 3; ER non-activity alert no. 19; ER non-activity alert no. 25; ER possible non-activity alert no. 5; ER possible non-activity alert no. 9	0.511	0.725	1	1	0.6	-
+9	Molecule 9	Si(C)(C)(C)OSi(C)(C)OSi(C)(C)OSi(C)(C)OSi(O)(O)OSi(O)(O)OSi(O)(O)OSi(O)(O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	-	-	[Molecule error] For input string: "155300-4". [Model] Unable to calculate model, input molecule is not valid. For input string: "155300-4".
+10	Molecule 10	O=C1O[Ca]O1	Possible NON-active (low reliability)	Possible NON-active	0	0	0	1	-	ER possible non-activity alert no. 9	0.275	0.795	0.672	1	0.34	-
+11	Molecule 11	O=[Ti]=O	Not predicted (low reliability)	Not predicted	0	0	0	0	-		0	0.775	1	0	0.4	-
+12	Molecule 12	CCC1CCC2C(CC)CC(C)CC2(C1)	Not predicted (low reliability)	Not predicted	0	0	0	0	-		0	0.837	0	0	1	-
+13	Molecule 13	O=C1NSc2ccccc12	NON-active (EXPERIMENTAL value)	Possible NON-active	0	0	0	2	NON-active	ER possible non-activity alert no. 6; ER possible non-activity alert no. 9	0.85	1	1	1	0.85	-
+14	Molecule 14	OCCOCCOCCOCCOCCO	Possible NON-active (good reliability)	Possible NON-active	0	0	0	2	-	ER possible non-activity alert no. 1; ER possible non-activity alert no. 3	0.958	0.918	1	1	1	-

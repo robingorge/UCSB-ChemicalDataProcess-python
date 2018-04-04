@@ -1,0 +1,16 @@
+Prediction and Applicability Domain analysis for model:
+Fish Acute (LC50) Toxicity classification (SarPy/IRFMN) (version 1.0.2)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted toxicity class	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(OC(=O)C)C[N+](C)(C)C	Toxic-3 (between 10 and 100 mg/l) (low reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 5	0.44	0.801	0.673	0.673	0.6	-
+2	Molecule 2	Oc1cccc(c1)CO	Toxic-3 (between 10 and 100 mg/l) (good reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 24	0.944	0.892	1	1	1	-
+3	Molecule 3	C(=C(C)C)CCl	Toxic-3 (between 10 and 100 mg/l) (moderate reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 23	0.716	0.795	0.645	0.645	1	-
+4	Molecule 4	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 19; Toxicity class 3 alert no. 5	0.85	0.723	1	1	1	-
+5	Molecule 5	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	Toxic-2 (between 1 and 10 mg/l) (good reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 19; Toxicity class 3 alert no. 5	0.859	0.737	1	1	1	-
+6	Molecule 6	C[Sn+3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+7	Molecule 7	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	Toxic-2 (between 1 and 10 mg/l) (low reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 9; Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 19; Toxicity class 3 alert no. 5	0.526	0.77	1	1	0.6	-
+8	Molecule 8	O=C(OCC(O)C(O)C(O)C(O)COC(=O)CCS)CCS	Toxic-2 (between 1 and 10 mg/l) (low reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 9; Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 19; Toxicity class 3 alert no. 5	0.526	0.767	1	1	0.6	-
+9	Molecule 9	O(CC)C(OCCC(C)CCC=C(C)C)C	Toxic-3 (between 10 and 100 mg/l) (moderate reliability)	Toxic-3 (between 10 and 100 mg/l)	-	Toxicity class 3 alert no. 9; Toxicity class 3 alert no. 23	0.747	0.773	1	1	0.85	-
+10	Molecule 10	CCCCCCCCCCCCCCCOCCCNC(=O)C(CC(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+]	[ERROR]	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+11	Molecule 11	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	Toxic-2 (between 1 and 10 mg/l) (low reliability)	Toxic-2 (between 1 and 10 mg/l)	-	Toxicity class 2 alert no. 2; Toxicity class 2 alert no. 12; Toxicity class 2 alert no. 21; Toxicity class 3 alert no. 14	0.285	0.701	1	1	0.34	-

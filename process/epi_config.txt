@@ -1,0 +1,2 @@
+Smile_File_Path: /home/awsgui/Desktop/qsar_modified/process/1502148913/epi_smiles.txt
+Output_File_Path: /home/awsgui/Desktop/qsar_modified/process/1502148913/epi_result/epi_results.txt

@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+BCF model (KNN/Read-Across) (version 1.1.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted BCF [log(L/kg)]	Molecules used for prediction	Experimental [log(L/kg)]	ADI	Similarity index	Accuracy index	Concordance index	Max error index	ACF index	Remarks
+1	Molecule 1	Oc1cccc(c1)CO	1.06 log(L/kg) (good reliability)	1.06	4	-	1	0.885	0.205	0.059	0.581	1	-

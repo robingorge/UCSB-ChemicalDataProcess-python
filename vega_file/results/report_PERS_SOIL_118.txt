@@ -1,0 +1,6 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (soil) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in soil	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	CCCC	nP/P (moderate reliability)	nP/P	3	-		0.772	0.89	1	0.684	0.9	1	-

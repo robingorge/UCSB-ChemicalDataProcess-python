@@ -1,0 +1,16 @@
+Prediction and Applicability Domain analysis for model:
+Persistence (soil) model (IRFMN) (version 1.0.0)
+(calculation core version: 1.2.2)
+
+No.	Id	SMILES	Assessment	Predicted persistence in soil	Molecules used for prediction	Experimental	Structural Alerts	ADI	Similarity index	Accuracy index	Concordance index	Structural alerts concordance	ACF index	Remarks
+1	Molecule 1	O=C(O)CC(OC(=O)C)C[N+](C)(C)C	nP (low reliability)	nP	3	-	nP (soil) alert no. 1	0.521	0.755	1	1	1	0.6	-
+2	Molecule 2	Oc1cccc(c1)CO	nP (good reliability)	nP	3	-		0.851	0.894	1	1	0.9	1	-
+3	Molecule 3	C(=C(C)C)CCl	P/vP (moderate reliability)	P/vP	3	-		0.652	0.78	0.672	0.672	0.9	1	-
+4	Molecule 4	O=C(OCC(O)CO)CCSSCCC(=O)OCC(O)CO	nP (low reliability)	nP	0	-	nP (soil) alert no. 1; nP (soil) alert no. 15; nP (soil) alert no. 16; nP (soil) alert no. 18	0.487	0.675	0.673	0.673	0.85	0.85	-
+5	Molecule 5	O=C(OCC(O)CO)CCSCCC(=O)OCC(O)CO	nP (moderate reliability)	nP	0	-	nP (soil) alert no. 1; nP (soil) alert no. 15; nP (soil) alert no. 16; nP (soil) alert no. 18	0.702	0.681	1	1	0.85	1	-
+6	Molecule 6	C[Sn+3].C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O.C(C[S-])C(=O)OCC(C(C(C(CO)O)O)O)O	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+7	Molecule 7	O=C(OCC(O)C(O)C(O)C(O)CO)CCS	nP (low reliability)	nP	3	-	nP (soil) alert no. 1; nP (soil) alert no. 15; nP (soil) alert no. 18; nP (soil) alert no. 20	0.51	0.721	1	1	1	0.6	-
+8	Molecule 8	O=C(OCC(O)C(O)C(O)C(O)COC(=O)CCS)CCS	nP (low reliability)	nP	3	-	nP (soil) alert no. 1; nP (soil) alert no. 15; nP (soil) alert no. 16; nP (soil) alert no. 18	0.507	0.713	1	1	1	0.6	-
+9	Molecule 9	O(CC)C(OCCC(C)CCC=C(C)C)C	nP (moderate reliability)	nP	2	-	nP (soil) alert no. 15	0.727	0.732	1	1	1	0.85	-
+10	Molecule 10	CCCCCCCCCCCCCCCOCCCNC(=O)C(CC(=O)[O-])S(=O)(=O)[O-].[Na+].[Na+]	[ERROR]	-	-	-	-	-	-	-	-	-	-	[Molecule error] Conversion from SMILES: molecule has disconnected structures. [Model] Unable to calculate model, input molecule is not valid. Conversion from SMILES: molecule has disconnected structures.
+11	Molecule 11	O=C(O)CC(C(=O)NCCCOCCCCCCCCCCCCCCC)S(=O)(=O)O	nP (low reliability)	nP	0	-	nP (soil) alert no. 15; nP (soil) alert no. 20	0.336	0.674	0.334	0.669	0.85	0.7	-
